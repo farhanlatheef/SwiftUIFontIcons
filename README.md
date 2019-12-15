@@ -20,6 +20,22 @@ it, simply add the following line to your Podfile:
 pod 'SwiftUIFontIcons'
 ```
 
+## Usage
+
+````swift
+import SwiftUIFontIcons
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            FontIcon.FA(.gear, 33)
+            FontIcon.MI(.traffic, 40)
+            FontIcon.ION(.ios_mail, 23)
+        }
+    }
+}
+````
+
 ## Author
 
 farhanlatheef, farhan.latheef1@gmail.com
