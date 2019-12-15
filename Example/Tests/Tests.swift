@@ -1,6 +1,4 @@
 import XCTest
-import SwiftUIFontIcons
-
 class Tests: XCTestCase {
     
     override func setUp() {

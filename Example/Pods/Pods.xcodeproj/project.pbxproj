@@ -1,0 +1,843 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		015A0598E0CA4853B9DC4C74D54D97C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350750CC7B26F5D1183C0B0DF981C30E /* Foundation.framework */; };
+		03DA8A6A15D6B143E069AA35D58078F6 /* MaterialIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E4C2257C54BB28124E26C96FD2B9A0D /* MaterialIcons-Regular.ttf */; };
+		086D5EEA21DB42F8931B5ED78819CF77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350750CC7B26F5D1183C0B0DF981C30E /* Foundation.framework */; };
+		2B8AF418EA0AE84AEBD5C735DFC65AAF /* MaterialIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD09645A23AD6F65D5D3F0536BDA7FB /* MaterialIcon.swift */; };
+		3BEBFD2A12868471C4C343683CD6A4AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350750CC7B26F5D1183C0B0DF981C30E /* Foundation.framework */; };
+		4404BE9FCE43C087710DF67AA192A593 /* themify.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 471D8A9D6B960AB3920D2BF1573C3FFF /* themify.ttf */; };
+		4528AF074711EA097876F58B49AB83B9 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 990FE63E26C471A95AD9B27132211FCD /* FontAwesome.ttf */; };
+		46CB29B9F3320CBE2B2E3A03C2DF7CF4 /* SwiftUIFontIcons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E12877D9D70E9F119BA869ECBBEF0EFC /* SwiftUIFontIcons-dummy.m */; };
+		778F87D95EFD7FD738FF3D6592AD0160 /* FontIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF3EBBD96919BE169ADC182DBD24D5B /* FontIcons.swift */; };
+		8268C34BD9A87CAADF3B81AEB001272D /* Pods-SwiftUIFontIcons_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C986174640749EF380B077234D1CCF57 /* Pods-SwiftUIFontIcons_Tests-dummy.m */; };
+		87874151BFF87726232148809E17D572 /* map-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C17370025E11510CAE2B1180D8075982 /* map-icons.ttf */; };
+		AA8E5B197751A2E2E19DA0EC208DE97D /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B11AC7AE6AE72B5A4FB864B7357070C1 /* Ionicons.ttf */; };
+		BF9334B94AC01551FB2C91DBF82F46A7 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E2909F464F1E009B5A0483107219A1 /* SwiftUI.framework */; };
+		C2798B99C5A67F4CFEAA211D2FE35267 /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 926F6DEE523EDE9A49C1183FD872F9BF /* octicons.ttf */; };
+		C9066F3609361BFB941429C323B6FD68 /* Pods-SwiftUIFontIcons_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CA4D86D7A6F59842838A8EAC4F6E52 /* Pods-SwiftUIFontIcons_Example-dummy.m */; };
+		D03272B3BBEAE64B4C5570DF61B28744 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF7AE4930362F1F3AA7118BE89B032C /* FontAwesome.swift */; };
+		DD5F12147EC07CB42782A14ACA5ED794 /* Pods-SwiftUIFontIcons_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C264C2D112A6FF69A56722821A0D590F /* Pods-SwiftUIFontIcons_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2692353FF9E4BA750C3DEDC3942D070 /* Segoe mdl2 assets.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFD5416DD7F8E8640B14E31A7DDB7499 /* Segoe mdl2 assets.ttf */; };
+		E2B1F74F71525B44CE63DA903675B0C6 /* open-iconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7127BA5838834C1B9DE743DAC78D2BA0 /* open-iconic.ttf */; };
+		F2BCCDA498E090EA3218EB08BC4CCC4F /* SwiftUIFontIcons-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDCC1FE702A852C196C982E0AE135619 /* SwiftUIFontIcons-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBEBFEC0BDA2346FB3F57B876FF5D462 /* Pods-SwiftUIFontIcons_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46B66E81EC8129BE6127084351739ED7 /* Pods-SwiftUIFontIcons_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69481C53524AB82EF204DE379085AA80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EF5775CEB711536984D9A5A7C74BB34;
+			remoteInfo = SwiftUIFontIcons;
+		};
+		CE2216D89FC46C09E044098572AD6316 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAEE39FD47754B9A492C88773F17C837;
+			remoteInfo = "Pods-SwiftUIFontIcons_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06BD312D24917E762528239228914F86 /* SwiftUIFontIcons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftUIFontIcons-prefix.pch"; sourceTree = "<group>"; };
+		15B46AB36E230763B8690AFB89A40409 /* Pods-SwiftUIFontIcons_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUIFontIcons_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1BDFAB5486479F87BD15BD5BDBC12A52 /* Pods-SwiftUIFontIcons_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftUIFontIcons_Tests.modulemap"; sourceTree = "<group>"; };
+		2AA95036C813FE5D8742C206F1321ED5 /* SwiftUIFontIcons.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftUIFontIcons.xcconfig; sourceTree = "<group>"; };
+		2CD09645A23AD6F65D5D3F0536BDA7FB /* MaterialIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MaterialIcon.swift; sourceTree = "<group>"; };
+		3144364684B7D0317F720A7B35D90A1C /* Pods-SwiftUIFontIcons_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUIFontIcons_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		350750CC7B26F5D1183C0B0DF981C30E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		38CA4D86D7A6F59842838A8EAC4F6E52 /* Pods-SwiftUIFontIcons_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftUIFontIcons_Example-dummy.m"; sourceTree = "<group>"; };
+		3E4C2257C54BB28124E26C96FD2B9A0D /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "MaterialIcons-Regular.ttf"; path = "SwiftUIFontIcons/Assets/MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
+		3E82CCFA90948B8852293C4134A2C96A /* Pods-SwiftUIFontIcons_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUIFontIcons_Example-Info.plist"; sourceTree = "<group>"; };
+		416E5BE215906E972F4C65B1929C4CDF /* SwiftUIFontIcons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftUIFontIcons.framework; path = SwiftUIFontIcons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B66E81EC8129BE6127084351739ED7 /* Pods-SwiftUIFontIcons_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftUIFontIcons_Tests-umbrella.h"; sourceTree = "<group>"; };
+		471D8A9D6B960AB3920D2BF1573C3FFF /* themify.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = themify.ttf; path = SwiftUIFontIcons/Assets/themify.ttf; sourceTree = "<group>"; };
+		47CF52368151FA6627C3136724993215 /* Pods-SwiftUIFontIcons_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUIFontIcons_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		53F429CA0A011AF668DE8401661E7B31 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7127BA5838834C1B9DE743DAC78D2BA0 /* open-iconic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "open-iconic.ttf"; path = "SwiftUIFontIcons/Assets/open-iconic.ttf"; sourceTree = "<group>"; };
+		72D80922B88E1D876C6FDA263D723261 /* Pods-SwiftUIFontIcons_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftUIFontIcons_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7BA1CC765B74F5D7C705DF4390311A85 /* Pods-SwiftUIFontIcons_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUIFontIcons_Tests-Info.plist"; sourceTree = "<group>"; };
+		80E2909F464F1E009B5A0483107219A1 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SwiftUI.framework; sourceTree = DEVELOPER_DIR; };
+		8E21B4FB3C395742201FBF916A0EAAC8 /* Pods-SwiftUIFontIcons_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftUIFontIcons_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9108ED7A4F8424DB3AA5AB702539CD6E /* Pods_SwiftUIFontIcons_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftUIFontIcons_Example.framework; path = "Pods-SwiftUIFontIcons_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		926F6DEE523EDE9A49C1183FD872F9BF /* octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = octicons.ttf; path = SwiftUIFontIcons/Assets/octicons.ttf; sourceTree = "<group>"; };
+		98ADC296F96F0FF8117E61A4F8F5EF9B /* Pods-SwiftUIFontIcons_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftUIFontIcons_Example-frameworks.sh"; sourceTree = "<group>"; };
+		990FE63E26C471A95AD9B27132211FCD /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.ttf; path = SwiftUIFontIcons/Assets/FontAwesome.ttf; sourceTree = "<group>"; };
+		9CBCECA3D3FEFB1242F0B96C28D62B11 /* Pods-SwiftUIFontIcons_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftUIFontIcons_Example.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E67BF116CC6900153C18FC0BFEF1E21 /* Pods_SwiftUIFontIcons_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftUIFontIcons_Tests.framework; path = "Pods-SwiftUIFontIcons_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87A6B92E837E5F5B1B0D3DFC6290E2B /* SwiftUIFontIcons.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftUIFontIcons.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADF7AE4930362F1F3AA7118BE89B032C /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FontAwesome.swift; sourceTree = "<group>"; };
+		B100975E6FDD2BB45723E4EB60671AF2 /* SwiftUIFontIcons.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftUIFontIcons.modulemap; sourceTree = "<group>"; };
+		B11AC7AE6AE72B5A4FB864B7357070C1 /* Ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = Ionicons.ttf; path = SwiftUIFontIcons/Assets/Ionicons.ttf; sourceTree = "<group>"; };
+		BDF3EBBD96919BE169ADC182DBD24D5B /* FontIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontIcons.swift; path = SwiftUIFontIcons/Classes/FontIcons.swift; sourceTree = "<group>"; };
+		C17370025E11510CAE2B1180D8075982 /* map-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "map-icons.ttf"; path = "SwiftUIFontIcons/Assets/map-icons.ttf"; sourceTree = "<group>"; };
+		C264C2D112A6FF69A56722821A0D590F /* Pods-SwiftUIFontIcons_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftUIFontIcons_Example-umbrella.h"; sourceTree = "<group>"; };
+		C40082D917023DAD278231FB8CA5ACA7 /* Pods-SwiftUIFontIcons_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUIFontIcons_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C96483617439EE91EAA77553BD1E52F7 /* SwiftUIFontIcons-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftUIFontIcons-Info.plist"; sourceTree = "<group>"; };
+		C986174640749EF380B077234D1CCF57 /* Pods-SwiftUIFontIcons_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftUIFontIcons_Tests-dummy.m"; sourceTree = "<group>"; };
+		CB6F635AEF27F3EBAA4EB36293E7AA03 /* Pods-SwiftUIFontIcons_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUIFontIcons_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E12877D9D70E9F119BA869ECBBEF0EFC /* SwiftUIFontIcons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftUIFontIcons-dummy.m"; sourceTree = "<group>"; };
+		EC036104124D8FE632CCF2043C214541 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EDCC1FE702A852C196C982E0AE135619 /* SwiftUIFontIcons-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftUIFontIcons-umbrella.h"; sourceTree = "<group>"; };
+		FE5C129A5BEEA99C91D37EAA9FA3AF29 /* Pods-SwiftUIFontIcons_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUIFontIcons_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FFD5416DD7F8E8640B14E31A7DDB7499 /* Segoe mdl2 assets.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Segoe mdl2 assets.ttf"; path = "SwiftUIFontIcons/Assets/Segoe mdl2 assets.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AD41E48C439A35C845E829BBA54F344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015A0598E0CA4853B9DC4C74D54D97C4 /* Foundation.framework in Frameworks */,
+				BF9334B94AC01551FB2C91DBF82F46A7 /* SwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25591C5352C2F2FE082150D91D29B2D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086D5EEA21DB42F8931B5ED78819CF77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C085FC54ABC7266FDD0D4D03B335B0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEBFD2A12868471C4C343683CD6A4AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		126C361FF796A7F23E6CECFFBDDE4AB8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B100975E6FDD2BB45723E4EB60671AF2 /* SwiftUIFontIcons.modulemap */,
+				2AA95036C813FE5D8742C206F1321ED5 /* SwiftUIFontIcons.xcconfig */,
+				E12877D9D70E9F119BA869ECBBEF0EFC /* SwiftUIFontIcons-dummy.m */,
+				C96483617439EE91EAA77553BD1E52F7 /* SwiftUIFontIcons-Info.plist */,
+				06BD312D24917E762528239228914F86 /* SwiftUIFontIcons-prefix.pch */,
+				EDCC1FE702A852C196C982E0AE135619 /* SwiftUIFontIcons-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwiftUIFontIcons";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				832F4240090AEB9790F95E3D2B82BEBD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		339AFEB702637E8DE6BDDC5896AC42C6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ADF7AE4930362F1F3AA7118BE89B032C /* FontAwesome.swift */,
+				2CD09645A23AD6F65D5D3F0536BDA7FB /* MaterialIcon.swift */,
+			);
+			name = Fonts;
+			path = SwiftUIFontIcons/Classes/Fonts;
+			sourceTree = "<group>";
+		};
+		4973B58627E9DA4D67402524BAD3CB44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9108ED7A4F8424DB3AA5AB702539CD6E /* Pods_SwiftUIFontIcons_Example.framework */,
+				9E67BF116CC6900153C18FC0BFEF1E21 /* Pods_SwiftUIFontIcons_Tests.framework */,
+				416E5BE215906E972F4C65B1929C4CDF /* SwiftUIFontIcons.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		755ADF130748E885B6F45CC1A4C7A196 /* SwiftUIFontIcons */ = {
+			isa = PBXGroup;
+			children = (
+				BDF3EBBD96919BE169ADC182DBD24D5B /* FontIcons.swift */,
+				339AFEB702637E8DE6BDDC5896AC42C6 /* Fonts */,
+				B8E84CEC39EF5001722F712079C31604 /* Pod */,
+				A500B731373AAAE75498B7D74D4F44CA /* Resources */,
+				126C361FF796A7F23E6CECFFBDDE4AB8 /* Support Files */,
+			);
+			name = SwiftUIFontIcons;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		77CCB62D547C884371B80D36E5EF5D5A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C719D837A3AB1799DBEA8FEF87C458C3 /* Pods-SwiftUIFontIcons_Example */,
+				9A1E2A4879FF3C7A96867808AF88020F /* Pods-SwiftUIFontIcons_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		832F4240090AEB9790F95E3D2B82BEBD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				350750CC7B26F5D1183C0B0DF981C30E /* Foundation.framework */,
+				80E2909F464F1E009B5A0483107219A1 /* SwiftUI.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		977DFF4B8A63576102C9B3DC498FB53F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				755ADF130748E885B6F45CC1A4C7A196 /* SwiftUIFontIcons */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9A1E2A4879FF3C7A96867808AF88020F /* Pods-SwiftUIFontIcons_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1BDFAB5486479F87BD15BD5BDBC12A52 /* Pods-SwiftUIFontIcons_Tests.modulemap */,
+				72D80922B88E1D876C6FDA263D723261 /* Pods-SwiftUIFontIcons_Tests-acknowledgements.markdown */,
+				47CF52368151FA6627C3136724993215 /* Pods-SwiftUIFontIcons_Tests-acknowledgements.plist */,
+				C986174640749EF380B077234D1CCF57 /* Pods-SwiftUIFontIcons_Tests-dummy.m */,
+				7BA1CC765B74F5D7C705DF4390311A85 /* Pods-SwiftUIFontIcons_Tests-Info.plist */,
+				46B66E81EC8129BE6127084351739ED7 /* Pods-SwiftUIFontIcons_Tests-umbrella.h */,
+				CB6F635AEF27F3EBAA4EB36293E7AA03 /* Pods-SwiftUIFontIcons_Tests.debug.xcconfig */,
+				FE5C129A5BEEA99C91D37EAA9FA3AF29 /* Pods-SwiftUIFontIcons_Tests.release.xcconfig */,
+			);
+			name = "Pods-SwiftUIFontIcons_Tests";
+			path = "Target Support Files/Pods-SwiftUIFontIcons_Tests";
+			sourceTree = "<group>";
+		};
+		A500B731373AAAE75498B7D74D4F44CA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				990FE63E26C471A95AD9B27132211FCD /* FontAwesome.ttf */,
+				B11AC7AE6AE72B5A4FB864B7357070C1 /* Ionicons.ttf */,
+				C17370025E11510CAE2B1180D8075982 /* map-icons.ttf */,
+				3E4C2257C54BB28124E26C96FD2B9A0D /* MaterialIcons-Regular.ttf */,
+				926F6DEE523EDE9A49C1183FD872F9BF /* octicons.ttf */,
+				7127BA5838834C1B9DE743DAC78D2BA0 /* open-iconic.ttf */,
+				FFD5416DD7F8E8640B14E31A7DDB7499 /* Segoe mdl2 assets.ttf */,
+				471D8A9D6B960AB3920D2BF1573C3FFF /* themify.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B8E84CEC39EF5001722F712079C31604 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				53F429CA0A011AF668DE8401661E7B31 /* LICENSE */,
+				EC036104124D8FE632CCF2043C214541 /* README.md */,
+				A87A6B92E837E5F5B1B0D3DFC6290E2B /* SwiftUIFontIcons.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C719D837A3AB1799DBEA8FEF87C458C3 /* Pods-SwiftUIFontIcons_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9CBCECA3D3FEFB1242F0B96C28D62B11 /* Pods-SwiftUIFontIcons_Example.modulemap */,
+				8E21B4FB3C395742201FBF916A0EAAC8 /* Pods-SwiftUIFontIcons_Example-acknowledgements.markdown */,
+				3144364684B7D0317F720A7B35D90A1C /* Pods-SwiftUIFontIcons_Example-acknowledgements.plist */,
+				38CA4D86D7A6F59842838A8EAC4F6E52 /* Pods-SwiftUIFontIcons_Example-dummy.m */,
+				98ADC296F96F0FF8117E61A4F8F5EF9B /* Pods-SwiftUIFontIcons_Example-frameworks.sh */,
+				3E82CCFA90948B8852293C4134A2C96A /* Pods-SwiftUIFontIcons_Example-Info.plist */,
+				C264C2D112A6FF69A56722821A0D590F /* Pods-SwiftUIFontIcons_Example-umbrella.h */,
+				15B46AB36E230763B8690AFB89A40409 /* Pods-SwiftUIFontIcons_Example.debug.xcconfig */,
+				C40082D917023DAD278231FB8CA5ACA7 /* Pods-SwiftUIFontIcons_Example.release.xcconfig */,
+			);
+			name = "Pods-SwiftUIFontIcons_Example";
+			path = "Target Support Files/Pods-SwiftUIFontIcons_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				977DFF4B8A63576102C9B3DC498FB53F /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				4973B58627E9DA4D67402524BAD3CB44 /* Products */,
+				77CCB62D547C884371B80D36E5EF5D5A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7A3EA92E1F881FC0EB6BD8E5A1C29581 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BCCDA498E090EA3218EB08BC4CCC4F /* SwiftUIFontIcons-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80A2ADC216C100709A854F8BC9668F97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5F12147EC07CB42782A14ACA5ED794 /* Pods-SwiftUIFontIcons_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9013AA72A55D42B10D0166B0AA200FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEBFEC0BDA2346FB3F57B876FF5D462 /* Pods-SwiftUIFontIcons_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7EF5775CEB711536984D9A5A7C74BB34 /* SwiftUIFontIcons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4A14CA80D792A7ACD37E15324F956B /* Build configuration list for PBXNativeTarget "SwiftUIFontIcons" */;
+			buildPhases = (
+				7A3EA92E1F881FC0EB6BD8E5A1C29581 /* Headers */,
+				EFB0BF252498C4B1EFCC8E571D94210B /* Sources */,
+				0AD41E48C439A35C845E829BBA54F344 /* Frameworks */,
+				36904BB782582C58A6DAA39F99547637 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUIFontIcons;
+			productName = SwiftUIFontIcons;
+			productReference = 416E5BE215906E972F4C65B1929C4CDF /* SwiftUIFontIcons.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8510EB503BF7538130AD6800CDEB542E /* Pods-SwiftUIFontIcons_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5BF4A83CB273B81B00E7D1027F46ED6 /* Build configuration list for PBXNativeTarget "Pods-SwiftUIFontIcons_Tests" */;
+			buildPhases = (
+				E9013AA72A55D42B10D0166B0AA200FD /* Headers */,
+				E18847A5B2C69F061FDBBF0445EA6AB3 /* Sources */,
+				8C085FC54ABC7266FDD0D4D03B335B0F /* Frameworks */,
+				DDB76F9C56FE975A47A8C4300F18D503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C7F43E00C92BA2280CFFA630A9DD91C /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftUIFontIcons_Tests";
+			productName = "Pods-SwiftUIFontIcons_Tests";
+			productReference = 9E67BF116CC6900153C18FC0BFEF1E21 /* Pods_SwiftUIFontIcons_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FAEE39FD47754B9A492C88773F17C837 /* Pods-SwiftUIFontIcons_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 797792830D617337803C826658006A45 /* Build configuration list for PBXNativeTarget "Pods-SwiftUIFontIcons_Example" */;
+			buildPhases = (
+				80A2ADC216C100709A854F8BC9668F97 /* Headers */,
+				A2415321A368DA0D10DB1C6EDCB0FAB5 /* Sources */,
+				25591C5352C2F2FE082150D91D29B2D4 /* Frameworks */,
+				0BE81E0BD0006BDA815F2D3D1C3E7739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA84330CB16489F0B990C485DE4BC3BD /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftUIFontIcons_Example";
+			productName = "Pods-SwiftUIFontIcons_Example";
+			productReference = 9108ED7A4F8424DB3AA5AB702539CD6E /* Pods_SwiftUIFontIcons_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4973B58627E9DA4D67402524BAD3CB44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAEE39FD47754B9A492C88773F17C837 /* Pods-SwiftUIFontIcons_Example */,
+				8510EB503BF7538130AD6800CDEB542E /* Pods-SwiftUIFontIcons_Tests */,
+				7EF5775CEB711536984D9A5A7C74BB34 /* SwiftUIFontIcons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BE81E0BD0006BDA815F2D3D1C3E7739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36904BB782582C58A6DAA39F99547637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4528AF074711EA097876F58B49AB83B9 /* FontAwesome.ttf in Resources */,
+				AA8E5B197751A2E2E19DA0EC208DE97D /* Ionicons.ttf in Resources */,
+				87874151BFF87726232148809E17D572 /* map-icons.ttf in Resources */,
+				03DA8A6A15D6B143E069AA35D58078F6 /* MaterialIcons-Regular.ttf in Resources */,
+				C2798B99C5A67F4CFEAA211D2FE35267 /* octicons.ttf in Resources */,
+				E2B1F74F71525B44CE63DA903675B0C6 /* open-iconic.ttf in Resources */,
+				E2692353FF9E4BA750C3DEDC3942D070 /* Segoe mdl2 assets.ttf in Resources */,
+				4404BE9FCE43C087710DF67AA192A593 /* themify.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB76F9C56FE975A47A8C4300F18D503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2415321A368DA0D10DB1C6EDCB0FAB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9066F3609361BFB941429C323B6FD68 /* Pods-SwiftUIFontIcons_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E18847A5B2C69F061FDBBF0445EA6AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8268C34BD9A87CAADF3B81AEB001272D /* Pods-SwiftUIFontIcons_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB0BF252498C4B1EFCC8E571D94210B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03272B3BBEAE64B4C5570DF61B28744 /* FontAwesome.swift in Sources */,
+				778F87D95EFD7FD738FF3D6592AD0160 /* FontIcons.swift in Sources */,
+				2B8AF418EA0AE84AEBD5C735DFC65AAF /* MaterialIcon.swift in Sources */,
+				46CB29B9F3320CBE2B2E3A03C2DF7CF4 /* SwiftUIFontIcons-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C7F43E00C92BA2280CFFA630A9DD91C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SwiftUIFontIcons_Example";
+			target = FAEE39FD47754B9A492C88773F17C837 /* Pods-SwiftUIFontIcons_Example */;
+			targetProxy = CE2216D89FC46C09E044098572AD6316 /* PBXContainerItemProxy */;
+		};
+		CA84330CB16489F0B990C485DE4BC3BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftUIFontIcons;
+			target = 7EF5775CEB711536984D9A5A7C74BB34 /* SwiftUIFontIcons */;
+			targetProxy = 69481C53524AB82EF204DE379085AA80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F93D831E42FA54F5E25FEC99D5D2CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB6F635AEF27F3EBAA4EB36293E7AA03 /* Pods-SwiftUIFontIcons_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftUIFontIcons_Tests/Pods-SwiftUIFontIcons_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftUIFontIcons_Tests/Pods-SwiftUIFontIcons_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		297FB9AAF7293F1B53926A1A7A2E0E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA95036C813FE5D8742C206F1321ED5 /* SwiftUIFontIcons.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftUIFontIcons/SwiftUIFontIcons-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftUIFontIcons/SwiftUIFontIcons-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftUIFontIcons/SwiftUIFontIcons.modulemap";
+				PRODUCT_MODULE_NAME = SwiftUIFontIcons;
+				PRODUCT_NAME = SwiftUIFontIcons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F715D2B948EC812FA24DBBBFAE41A87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15B46AB36E230763B8690AFB89A40409 /* Pods-SwiftUIFontIcons_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftUIFontIcons_Example/Pods-SwiftUIFontIcons_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftUIFontIcons_Example/Pods-SwiftUIFontIcons_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71C1CA2C1E239B7D1D36D4FE401853F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA95036C813FE5D8742C206F1321ED5 /* SwiftUIFontIcons.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftUIFontIcons/SwiftUIFontIcons-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftUIFontIcons/SwiftUIFontIcons-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftUIFontIcons/SwiftUIFontIcons.modulemap";
+				PRODUCT_MODULE_NAME = SwiftUIFontIcons;
+				PRODUCT_NAME = SwiftUIFontIcons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		783C45290A4233570903AE01FB9ACB69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C40082D917023DAD278231FB8CA5ACA7 /* Pods-SwiftUIFontIcons_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftUIFontIcons_Example/Pods-SwiftUIFontIcons_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftUIFontIcons_Example/Pods-SwiftUIFontIcons_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EE4EA9E18F51BAF216C31CEE3AB4CAF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE5C129A5BEEA99C91D37EAA9FA3AF29 /* Pods-SwiftUIFontIcons_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftUIFontIcons_Tests/Pods-SwiftUIFontIcons_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftUIFontIcons_Tests/Pods-SwiftUIFontIcons_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		797792830D617337803C826658006A45 /* Build configuration list for PBXNativeTarget "Pods-SwiftUIFontIcons_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F715D2B948EC812FA24DBBBFAE41A87 /* Debug */,
+				783C45290A4233570903AE01FB9ACB69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5BF4A83CB273B81B00E7D1027F46ED6 /* Build configuration list for PBXNativeTarget "Pods-SwiftUIFontIcons_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F93D831E42FA54F5E25FEC99D5D2CC8 /* Debug */,
+				EE4EA9E18F51BAF216C31CEE3AB4CAF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD4A14CA80D792A7ACD37E15324F956B /* Build configuration list for PBXNativeTarget "SwiftUIFontIcons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C1CA2C1E239B7D1D36D4FE401853F5 /* Debug */,
+				297FB9AAF7293F1B53926A1A7A2E0E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

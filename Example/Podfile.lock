@@ -1,0 +1,16 @@
+PODS:
+  - SwiftUIFontIcons (0.1.0)
+
+DEPENDENCIES:
+  - SwiftUIFontIcons (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftUIFontIcons:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftUIFontIcons: faa1a54f541361db298d502a5fcbee0f249f43b3
+
+PODFILE CHECKSUM: 9b2b7effb45df30eb118fc5582cdebea732dfd54
+
+COCOAPODS: 1.8.4
