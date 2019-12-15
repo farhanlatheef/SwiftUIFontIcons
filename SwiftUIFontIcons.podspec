@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftUIFontIcons'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Simple SwiftUI Text that can be used to show icons from popular icon libraries'
   s.homepage         = 'https://github.com/farhanlatheef/SwiftUIFontIcons'
   s.swift_versions   = "5.0.0"
