@@ -13,7 +13,8 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("Hello, World!")
-            FontIcon.FA(.fa, 33)
+            FontIcon.FA(.gear, 33)
+            FontIcon.MI(.traffic, 33)
         }
     }
 }

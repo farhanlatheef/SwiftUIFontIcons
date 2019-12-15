@@ -1,942 +1,941 @@
 //
-//  MaterialIcon.swift
-//  Exa
+//  MaterialIcon_swift
 //
-//  Created by Sedat Gökbek ÇİFTÇİ on 08/07/16.
-//  Copyright © 2016 Sedat Gökbek ÇİFTÇİ. All rights reserved.
+//
+//  Created by Farhan CK on 12/12/19_
+//  Copyright © 2019 Farhan ck_ All rights reserved_
 //
 
-public let materialIconArr: [String: String] = [
-    "3d.rotation":"\u{e84d}",
-    "ac.unit":"\u{eb3b}",
-    "access.alarm":"\u{e190}",
-    "access.alarms":"\u{e191}",
-    "access.time":"\u{e192}",
-    "accessibility":"\u{e84e}",
-    "accessible":"\u{e914}",
-    "account.balance":"\u{e84f}",
-    "account.balance.wallet":"\u{e850}",
-    "account.box":"\u{e851}",
-    "account.circle":"\u{e853}",
-    "adb":"\u{e60e}",
-    "add":"\u{e145}",
-    "add.a.photo":"\u{e439}",
-    "add.alarm":"\u{e193}",
-    "add.alert":"\u{e003}",
-    "add.box":"\u{e146}",
-    "add.circle":"\u{e147}",
-    "add.circle.outline":"\u{e148}",
-    "add.location":"\u{e567}",
-    "add.shopping.cart":"\u{e854}",
-    "add.to.photos":"\u{e39d}",
-    "add.to.queue":"\u{e05c}",
-    "adjust":"\u{e39e}",
-    "airline.seat.flat":"\u{e630}",
-    "airline.seat.flat.angled":"\u{e631}",
-    "airline.seat.individual.suite":"\u{e632}",
-    "airline.seat.legroom.extra":"\u{e633}",
-    "airline.seat.legroom.normal":"\u{e634}",
-    "airline.seat.legroom.reduced":"\u{e635}",
-    "airline.seat.recline.extra":"\u{e636}",
-    "airline.seat.recline.normal":"\u{e637}",
-    "airplanemode.active":"\u{e195}",
-    "airplanemode.inactive":"\u{e194}",
-    "airplay":"\u{e055}",
-    "airport.shuttle":"\u{eb3c}",
-    "alarm":"\u{e855}",
-    "alarm.add":"\u{e856}",
-    "alarm.off":"\u{e857}",
-    "alarm.on":"\u{e858}",
-    "album":"\u{e019}",
-    "all.inclusive":"\u{eb3d}",
-    "all.out":"\u{e90b}",
-    "android":"\u{e859}",
-    "announcement":"\u{e85a}",
-    "apps":"\u{e5c3}",
-    "archive":"\u{e149}",
-    "arrow.back":"\u{e5c4}",
-    "arrow.downward":"\u{e5db}",
-    "arrow.drop.down":"\u{e5c5}",
-    "arrow.drop.down.circle":"\u{e5c6}",
-    "arrow.drop.up":"\u{e5c7}",
-    "arrow.forward":"\u{e5c8}",
-    "arrow.upward":"\u{e5d8}",
-    "art.track":"\u{e060}",
-    "aspect.ratio":"\u{e85b}",
-    "assessment":"\u{e85c}",
-    "assignment":"\u{e85d}",
-    "assignment.ind":"\u{e85e}",
-    "assignment.late":"\u{e85f}",
-    "assignment.return":"\u{e860}",
-    "assignment.returned":"\u{e861}",
-    "assignment.turned.in":"\u{e862}",
-    "assistant":"\u{e39f}",
-    "assistant.photo":"\u{e3a0}",
-    "attach.file":"\u{e226}",
-    "attach.money":"\u{e227}",
-    "attachment":"\u{e2bc}",
-    "audiotrack":"\u{e3a1}",
-    "autorenew":"\u{e863}",
-    "av.timer":"\u{e01b}",
-    "backspace":"\u{e14a}",
-    "backup":"\u{e864}",
-    "battery.alert":"\u{e19c}",
-    "battery.charging.full":"\u{e1a3}",
-    "battery.full":"\u{e1a4}",
-    "battery.std":"\u{e1a5}",
-    "battery.unknown":"\u{e1a6}",
-    "beach.access":"\u{eb3e}",
-    "beenhere":"\u{e52d}",
-    "block":"\u{e14b}",
-    "bluetooth":"\u{e1a7}",
-    "bluetooth.audio":"\u{e60f}",
-    "bluetooth.connected":"\u{e1a8}",
-    "bluetooth.disabled":"\u{e1a9}",
-    "bluetooth.searching":"\u{e1aa}",
-    "blur.circular":"\u{e3a2}",
-    "blur.linear":"\u{e3a3}",
-    "blur.off":"\u{e3a4}",
-    "blur.on":"\u{e3a5}",
-    "book":"\u{e865}",
-    "bookmark":"\u{e866}",
-    "bookmark.border":"\u{e867}",
-    "border.all":"\u{e228}",
-    "border.bottom":"\u{e229}",
-    "border.clear":"\u{e22a}",
-    "border.color":"\u{e22b}",
-    "border.horizontal":"\u{e22c}",
-    "border.inner":"\u{e22d}",
-    "border.left":"\u{e22e}",
-    "border.outer":"\u{e22f}",
-    "border.right":"\u{e230}",
-    "border.style":"\u{e231}",
-    "border.top":"\u{e232}",
-    "border.vertical":"\u{e233}",
-    "branding.watermark":"\u{e06b}",
-    "brightness.1":"\u{e3a6}",
-    "brightness.2":"\u{e3a7}",
-    "brightness.3":"\u{e3a8}",
-    "brightness.4":"\u{e3a9}",
-    "brightness.5":"\u{e3aa}",
-    "brightness.6":"\u{e3ab}",
-    "brightness.7":"\u{e3ac}",
-    "brightness.auto":"\u{e1ab}",
-    "brightness.high":"\u{e1ac}",
-    "brightness.low":"\u{e1ad}",
-    "brightness.medium":"\u{e1ae}",
-    "broken.image":"\u{e3ad}",
-    "brush":"\u{e3ae}",
-    "bubble.chart":"\u{e6dd}",
-    "bug.report":"\u{e868}",
-    "build":"\u{e869}",
-    "burst.mode":"\u{e43c}",
-    "business":"\u{e0af}",
-    "business.center":"\u{eb3f}",
-    "cached":"\u{e86a}",
-    "cake":"\u{e7e9}",
-    "call":"\u{e0b0}",
-    "call.end":"\u{e0b1}",
-    "call.made":"\u{e0b2}",
-    "call.merge":"\u{e0b3}",
-    "call.missed":"\u{e0b4}",
-    "call.missed.outgoing":"\u{e0e4}",
-    "call.received":"\u{e0b5}",
-    "call.split":"\u{e0b6}",
-    "call.to.action":"\u{e06c}",
-    "camera":"\u{e3af}",
-    "camera.alt":"\u{e3b0}",
-    "camera.enhance":"\u{e8fc}",
-    "camera.front":"\u{e3b1}",
-    "camera.rear":"\u{e3b2}",
-    "camera.roll":"\u{e3b3}",
-    "cancel":"\u{e5c9}",
-    "card.giftcard":"\u{e8f6}",
-    "card.membership":"\u{e8f7}",
-    "card.travel":"\u{e8f8}",
-    "casino":"\u{eb40}",
-    "cast":"\u{e307}",
-    "cast.connected":"\u{e308}",
-    "center.focus.strong":"\u{e3b4}",
-    "center.focus.weak":"\u{e3b5}",
-    "change.history":"\u{e86b}",
-    "chat":"\u{e0b7}",
-    "chat.bubble":"\u{e0ca}",
-    "chat.bubble.outline":"\u{e0cb}",
-    "check":"\u{e5ca}",
-    "check.box":"\u{e834}",
-    "check.box.outline.blank":"\u{e835}",
-    "check.circle":"\u{e86c}",
-    "chevron.left":"\u{e5cb}",
-    "chevron.right":"\u{e5cc}",
-    "child.care":"\u{eb41}",
-    "child.friendly":"\u{eb42}",
-    "chrome.reader.mode":"\u{e86d}",
-    "class":"\u{e86e}",
-    "clear":"\u{e14c}",
-    "clear.all":"\u{e0b8}",
-    "close":"\u{e5cd}",
-    "closed.caption":"\u{e01c}",
-    "cloud":"\u{e2bd}",
-    "cloud.circle":"\u{e2be}",
-    "cloud.done":"\u{e2bf}",
-    "cloud.download":"\u{e2c0}",
-    "cloud.off":"\u{e2c1}",
-    "cloud.queue":"\u{e2c2}",
-    "cloud.upload":"\u{e2c3}",
-    "code":"\u{e86f}",
-    "collections":"\u{e3b6}",
-    "collections.bookmark":"\u{e431}",
-    "color.lens":"\u{e3b7}",
-    "colorize":"\u{e3b8}",
-    "comment":"\u{e0b9}",
-    "compare":"\u{e3b9}",
-    "compare.arrows":"\u{e915}",
-    "computer":"\u{e30a}",
-    "confirmation.number":"\u{e638}",
-    "contact.mail":"\u{e0d0}",
-    "contact.phone":"\u{e0cf}",
-    "contacts":"\u{e0ba}",
-    "content.copy":"\u{e14d}",
-    "content.cut":"\u{e14e}",
-    "content.paste":"\u{e14f}",
-    "control.point":"\u{e3ba}",
-    "control.point.duplicate":"\u{e3bb}",
-    "copyright":"\u{e90c}",
-    "create":"\u{e150}",
-    "create.new.folder":"\u{e2cc}",
-    "credit.card":"\u{e870}",
-    "crop":"\u{e3be}",
-    "crop.16.9":"\u{e3bc}",
-    "crop.3.2":"\u{e3bd}",
-    "crop.5.4":"\u{e3bf}",
-    "crop.7.5":"\u{e3c0}",
-    "crop.din":"\u{e3c1}",
-    "crop.free":"\u{e3c2}",
-    "crop.landscape":"\u{e3c3}",
-    "crop.original":"\u{e3c4}",
-    "crop.portrait":"\u{e3c5}",
-    "crop.rotate":"\u{e437}",
-    "crop.square":"\u{e3c6}",
-    "dashboard":"\u{e871}",
-    "data.usage":"\u{e1af}",
-    "date.range":"\u{e916}",
-    "dehaze":"\u{e3c7}",
-    "delete":"\u{e872}",
-    "delete.forever":"\u{e92b}",
-    "delete.sweep":"\u{e16c}",
-    "description":"\u{e873}",
-    "desktop.mac":"\u{e30b}",
-    "desktop.windows":"\u{e30c}",
-    "details":"\u{e3c8}",
-    "developer.board":"\u{e30d}",
-    "developer.mode":"\u{e1b0}",
-    "device.hub":"\u{e335}",
-    "devices":"\u{e1b1}",
-    "devices.other":"\u{e337}",
-    "dialer.sip":"\u{e0bb}",
-    "dialpad":"\u{e0bc}",
-    "directions":"\u{e52e}",
-    "directions.bike":"\u{e52f}",
-    "directions.boat":"\u{e532}",
-    "directions.bus":"\u{e530}",
-    "directions.car":"\u{e531}",
-    "directions.railway":"\u{e534}",
-    "directions.run":"\u{e566}",
-    "directions.subway":"\u{e533}",
-    "directions.transit":"\u{e565}",
-    "directions.walk":"\u{e536}",
-    "disc.full":"\u{e610}",
-    "dns":"\u{e875}",
-    "do.not.disturb":"\u{e612}",
-    "do.not.disturb.alt":"\u{e611}",
-    "do.not.disturb.off":"\u{e643}",
-    "do.not.disturb.on":"\u{e644}",
-    "dock":"\u{e30e}",
-    "domain":"\u{e7ee}",
-    "done":"\u{e876}",
-    "done.all":"\u{e877}",
-    "donut.large":"\u{e917}",
-    "donut.small":"\u{e918}",
-    "drafts":"\u{e151}",
-    "drag.handle":"\u{e25d}",
-    "drive.eta":"\u{e613}",
-    "dvr":"\u{e1b2}",
-    "edit":"\u{e3c9}",
-    "edit.location":"\u{e568}",
-    "eject":"\u{e8fb}",
-    "email":"\u{e0be}",
-    "enhanced.encryption":"\u{e63f}",
-    "equalizer":"\u{e01d}",
-    "error":"\u{e000}",
-    "error.outline":"\u{e001}",
-    "euro.symbol":"\u{e926}",
-    "ev.station":"\u{e56d}",
-    "event":"\u{e878}",
-    "event.available":"\u{e614}",
-    "event.busy":"\u{e615}",
-    "event.note":"\u{e616}",
-    "event.seat":"\u{e903}",
-    "exit.to.app":"\u{e879}",
-    "expand.less":"\u{e5ce}",
-    "expand.more":"\u{e5cf}",
-    "explicit":"\u{e01e}",
-    "explore":"\u{e87a}",
-    "exposure":"\u{e3ca}",
-    "exposure.neg.1":"\u{e3cb}",
-    "exposure.neg.2":"\u{e3cc}",
-    "exposure.plus.1":"\u{e3cd}",
-    "exposure.plus.2":"\u{e3ce}",
-    "exposure.zero":"\u{e3cf}",
-    "extension":"\u{e87b}",
-    "face":"\u{e87c}",
-    "fast.forward":"\u{e01f}",
-    "fast.rewind":"\u{e020}",
-    "favorite":"\u{e87d}",
-    "favorite.border":"\u{e87e}",
-    "featured.play.list":"\u{e06d}",
-    "featured.video":"\u{e06e}",
-    "feedback":"\u{e87f}",
-    "fiber.dvr":"\u{e05d}",
-    "fiber.manual.record":"\u{e061}",
-    "fiber.new":"\u{e05e}",
-    "fiber.pin":"\u{e06a}",
-    "fiber.smart.record":"\u{e062}",
-    "file.download":"\u{e2c4}",
-    "file.upload":"\u{e2c6}",
-    "filter":"\u{e3d3}",
-    "filter.1":"\u{e3d0}",
-    "filter.2":"\u{e3d1}",
-    "filter.3":"\u{e3d2}",
-    "filter.4":"\u{e3d4}",
-    "filter.5":"\u{e3d5}",
-    "filter.6":"\u{e3d6}",
-    "filter.7":"\u{e3d7}",
-    "filter.8":"\u{e3d8}",
-    "filter.9":"\u{e3d9}",
-    "filter.9.plus":"\u{e3da}",
-    "filter.b.and.w":"\u{e3db}",
-    "filter.center.focus":"\u{e3dc}",
-    "filter.drama":"\u{e3dd}",
-    "filter.frames":"\u{e3de}",
-    "filter.hdr":"\u{e3df}",
-    "filter.list":"\u{e152}",
-    "filter.none":"\u{e3e0}",
-    "filter.tilt.shift":"\u{e3e2}",
-    "filter.vintage":"\u{e3e3}",
-    "find.in.page":"\u{e880}",
-    "find.replace":"\u{e881}",
-    "fingerprint":"\u{e90d}",
-    "first.page":"\u{e5dc}",
-    "fitness.center":"\u{eb43}",
-    "flag":"\u{e153}",
-    "flare":"\u{e3e4}",
-    "flash.auto":"\u{e3e5}",
-    "flash.off":"\u{e3e6}",
-    "flash.on":"\u{e3e7}",
-    "flight":"\u{e539}",
-    "flight.land":"\u{e904}",
-    "flight.takeoff":"\u{e905}",
-    "flip":"\u{e3e8}",
-    "flip.to.back":"\u{e882}",
-    "flip.to.front":"\u{e883}",
-    "folder":"\u{e2c7}",
-    "folder.open":"\u{e2c8}",
-    "folder.shared":"\u{e2c9}",
-    "folder.special":"\u{e617}",
-    "font.download":"\u{e167}",
-    "format.align.center":"\u{e234}",
-    "format.align.justify":"\u{e235}",
-    "format.align.left":"\u{e236}",
-    "format.align.right":"\u{e237}",
-    "format.bold":"\u{e238}",
-    "format.clear":"\u{e239}",
-    "format.color.fill":"\u{e23a}",
-    "format.color.reset":"\u{e23b}",
-    "format.color.text":"\u{e23c}",
-    "format.indent.decrease":"\u{e23d}",
-    "format.indent.increase":"\u{e23e}",
-    "format.italic":"\u{e23f}",
-    "format.line.spacing":"\u{e240}",
-    "format.list.bulleted":"\u{e241}",
-    "format.list.numbered":"\u{e242}",
-    "format.paint":"\u{e243}",
-    "format.quote":"\u{e244}",
-    "format.shapes":"\u{e25e}",
-    "format.size":"\u{e245}",
-    "format.strikethrough":"\u{e246}",
-    "format.textdirection.l.to.r":"\u{e247}",
-    "format.textdirection.r.to.l":"\u{e248}",
-    "format.underlined":"\u{e249}",
-    "forum":"\u{e0bf}",
-    "forward":"\u{e154}",
-    "forward.10":"\u{e056}",
-    "forward.30":"\u{e057}",
-    "forward.5":"\u{e058}",
-    "free.breakfast":"\u{eb44}",
-    "fullscreen":"\u{e5d0}",
-    "fullscreen.exit":"\u{e5d1}",
-    "functions":"\u{e24a}",
-    "g.translate":"\u{e927}",
-    "gamepad":"\u{e30f}",
-    "games":"\u{e021}",
-    "gavel":"\u{e90e}",
-    "gesture":"\u{e155}",
-    "get.app":"\u{e884}",
-    "gif":"\u{e908}",
-    "golf.course":"\u{eb45}",
-    "gps.fixed":"\u{e1b3}",
-    "gps.not.fixed":"\u{e1b4}",
-    "gps.off":"\u{e1b5}",
-    "grade":"\u{e885}",
-    "gradient":"\u{e3e9}",
-    "grain":"\u{e3ea}",
-    "graphic.eq":"\u{e1b8}",
-    "grid.off":"\u{e3eb}",
-    "grid.on":"\u{e3ec}",
-    "group":"\u{e7ef}",
-    "group.add":"\u{e7f0}",
-    "group.work":"\u{e886}",
-    "hd":"\u{e052}",
-    "hdr.off":"\u{e3ed}",
-    "hdr.on":"\u{e3ee}",
-    "hdr.strong":"\u{e3f1}",
-    "hdr.weak":"\u{e3f2}",
-    "headset":"\u{e310}",
-    "headset.mic":"\u{e311}",
-    "healing":"\u{e3f3}",
-    "hearing":"\u{e023}",
-    "help":"\u{e887}",
-    "help.outline":"\u{e8fd}",
-    "high.quality":"\u{e024}",
-    "highlight":"\u{e25f}",
-    "highlight.off":"\u{e888}",
-    "history":"\u{e889}",
-    "home":"\u{e88a}",
-    "hot.tub":"\u{eb46}",
-    "hotel":"\u{e53a}",
-    "hourglass.empty":"\u{e88b}",
-    "hourglass.full":"\u{e88c}",
-    "http":"\u{e902}",
-    "https":"\u{e88d}",
-    "image":"\u{e3f4}",
-    "image.aspect.ratio":"\u{e3f5}",
-    "import.contacts":"\u{e0e0}",
-    "import.export":"\u{e0c3}",
-    "important.devices":"\u{e912}",
-    "inbox":"\u{e156}",
-    "indeterminate.check.box":"\u{e909}",
-    "info":"\u{e88e}",
-    "info.outline":"\u{e88f}",
-    "input":"\u{e890}",
-    "insert.chart":"\u{e24b}",
-    "insert.comment":"\u{e24c}",
-    "insert.drive.file":"\u{e24d}",
-    "insert.emoticon":"\u{e24e}",
-    "insert.invitation":"\u{e24f}",
-    "insert.link":"\u{e250}",
-    "insert.photo":"\u{e251}",
-    "invert.colors":"\u{e891}",
-    "invert.colors.off":"\u{e0c4}",
-    "iso":"\u{e3f6}",
-    "keyboard":"\u{e312}",
-    "keyboard.arrow.down":"\u{e313}",
-    "keyboard.arrow.left":"\u{e314}",
-    "keyboard.arrow.right":"\u{e315}",
-    "keyboard.arrow.up":"\u{e316}",
-    "keyboard.backspace":"\u{e317}",
-    "keyboard.capslock":"\u{e318}",
-    "keyboard.hide":"\u{e31a}",
-    "keyboard.return":"\u{e31b}",
-    "keyboard.tab":"\u{e31c}",
-    "keyboard.voice":"\u{e31d}",
-    "kitchen":"\u{eb47}",
-    "label":"\u{e892}",
-    "label.outline":"\u{e893}",
-    "landscape":"\u{e3f7}",
-    "language":"\u{e894}",
-    "laptop":"\u{e31e}",
-    "laptop.chromebook":"\u{e31f}",
-    "laptop.mac":"\u{e320}",
-    "laptop.windows":"\u{e321}",
-    "last.page":"\u{e5dd}",
-    "launch":"\u{e895}",
-    "layers":"\u{e53b}",
-    "layers.clear":"\u{e53c}",
-    "leak.add":"\u{e3f8}",
-    "leak.remove":"\u{e3f9}",
-    "lens":"\u{e3fa}",
-    "library.add":"\u{e02e}",
-    "library.books":"\u{e02f}",
-    "library.music":"\u{e030}",
-    "lightbulb.outline":"\u{e90f}",
-    "line.style":"\u{e919}",
-    "line.weight":"\u{e91a}",
-    "linear.scale":"\u{e260}",
-    "link":"\u{e157}",
-    "linked.camera":"\u{e438}",
-    "list":"\u{e896}",
-    "live.help":"\u{e0c6}",
-    "live.tv":"\u{e639}",
-    "local.activity":"\u{e53f}",
-    "local.airport":"\u{e53d}",
-    "local.atm":"\u{e53e}",
-    "local.bar":"\u{e540}",
-    "local.cafe":"\u{e541}",
-    "local.car.wash":"\u{e542}",
-    "local.convenience.store":"\u{e543}",
-    "local.dining":"\u{e556}",
-    "local.drink":"\u{e544}",
-    "local.florist":"\u{e545}",
-    "local.gas.station":"\u{e546}",
-    "local.grocery.store":"\u{e547}",
-    "local.hospital":"\u{e548}",
-    "local.hotel":"\u{e549}",
-    "local.laundry.service":"\u{e54a}",
-    "local.library":"\u{e54b}",
-    "local.mall":"\u{e54c}",
-    "local.movies":"\u{e54d}",
-    "local.offer":"\u{e54e}",
-    "local.parking":"\u{e54f}",
-    "local.pharmacy":"\u{e550}",
-    "local.phone":"\u{e551}",
-    "local.pizza":"\u{e552}",
-    "local.play":"\u{e553}",
-    "local.post.office":"\u{e554}",
-    "local.printshop":"\u{e555}",
-    "local.see":"\u{e557}",
-    "local.shipping":"\u{e558}",
-    "local.taxi":"\u{e559}",
-    "location.city":"\u{e7f1}",
-    "location.disabled":"\u{e1b6}",
-    "location.off":"\u{e0c7}",
-    "location.on":"\u{e0c8}",
-    "location.searching":"\u{e1b7}",
-    "lock":"\u{e897}",
-    "lock.open":"\u{e898}",
-    "lock.outline":"\u{e899}",
-    "looks":"\u{e3fc}",
-    "looks.3":"\u{e3fb}",
-    "looks.4":"\u{e3fd}",
-    "looks.5":"\u{e3fe}",
-    "looks.6":"\u{e3ff}",
-    "looks.one":"\u{e400}",
-    "looks.two":"\u{e401}",
-    "loop":"\u{e028}",
-    "loupe":"\u{e402}",
-    "low.priority":"\u{e16d}",
-    "loyalty":"\u{e89a}",
-    "mail":"\u{e158}",
-    "mail.outline":"\u{e0e1}",
-    "map":"\u{e55b}",
-    "markunread":"\u{e159}",
-    "markunread.mailbox":"\u{e89b}",
-    "memory":"\u{e322}",
-    "menu":"\u{e5d2}",
-    "merge.type":"\u{e252}",
-    "message":"\u{e0c9}",
-    "mic":"\u{e029}",
-    "mic.none":"\u{e02a}",
-    "mic.off":"\u{e02b}",
-    "mms":"\u{e618}",
-    "mode.comment":"\u{e253}",
-    "mode.edit":"\u{e254}",
-    "monetization.on":"\u{e263}",
-    "money.off":"\u{e25c}",
-    "monochrome.photos":"\u{e403}",
-    "mood":"\u{e7f2}",
-    "mood.bad":"\u{e7f3}",
-    "more":"\u{e619}",
-    "more.horiz":"\u{e5d3}",
-    "more.vert":"\u{e5d4}",
-    "motorcycle":"\u{e91b}",
-    "mouse":"\u{e323}",
-    "move.to.inbox":"\u{e168}",
-    "movie":"\u{e02c}",
-    "movie.creation":"\u{e404}",
-    "movie.filter":"\u{e43a}",
-    "multiline.chart":"\u{e6df}",
-    "music.note":"\u{e405}",
-    "music.video":"\u{e063}",
-    "my.location":"\u{e55c}",
-    "nature":"\u{e406}",
-    "nature.people":"\u{e407}",
-    "navigate.before":"\u{e408}",
-    "navigate.next":"\u{e409}",
-    "navigation":"\u{e55d}",
-    "near.me":"\u{e569}",
-    "network.cell":"\u{e1b9}",
-    "network.check":"\u{e640}",
-    "network.locked":"\u{e61a}",
-    "network.wifi":"\u{e1ba}",
-    "new.releases":"\u{e031}",
-    "next.week":"\u{e16a}",
-    "nfc":"\u{e1bb}",
-    "no.encryption":"\u{e641}",
-    "no.sim":"\u{e0cc}",
-    "not.interested":"\u{e033}",
-    "note":"\u{e06f}",
-    "note.add":"\u{e89c}",
-    "notifications":"\u{e7f4}",
-    "notifications.active":"\u{e7f7}",
-    "notifications.none":"\u{e7f5}",
-    "notifications.off":"\u{e7f6}",
-    "notifications.paused":"\u{e7f8}",
-    "offline.pin":"\u{e90a}",
-    "ondemand.video":"\u{e63a}",
-    "opacity":"\u{e91c}",
-    "open.in.browser":"\u{e89d}",
-    "open.in.new":"\u{e89e}",
-    "open.with":"\u{e89f}",
-    "pages":"\u{e7f9}",
-    "pageview":"\u{e8a0}",
-    "palette":"\u{e40a}",
-    "pan.tool":"\u{e925}",
-    "panorama":"\u{e40b}",
-    "panorama.fish.eye":"\u{e40c}",
-    "panorama.horizontal":"\u{e40d}",
-    "panorama.vertical":"\u{e40e}",
-    "panorama.wide.angle":"\u{e40f}",
-    "party.mode":"\u{e7fa}",
-    "pause":"\u{e034}",
-    "pause.circle.filled":"\u{e035}",
-    "pause.circle.outline":"\u{e036}",
-    "payment":"\u{e8a1}",
-    "people":"\u{e7fb}",
-    "people.outline":"\u{e7fc}",
-    "perm.camera.mic":"\u{e8a2}",
-    "perm.contact.calendar":"\u{e8a3}",
-    "perm.data.setting":"\u{e8a4}",
-    "perm.device.information":"\u{e8a5}",
-    "perm.identity":"\u{e8a6}",
-    "perm.media":"\u{e8a7}",
-    "perm.phone.msg":"\u{e8a8}",
-    "perm.scan.wifi":"\u{e8a9}",
-    "person":"\u{e7fd}",
-    "person.add":"\u{e7fe}",
-    "person.outline":"\u{e7ff}",
-    "person.pin":"\u{e55a}",
-    "person.pin.circle":"\u{e56a}",
-    "personal.video":"\u{e63b}",
-    "pets":"\u{e91d}",
-    "phone":"\u{e0cd}",
-    "phone.android":"\u{e324}",
-    "phone.bluetooth.speaker":"\u{e61b}",
-    "phone.forwarded":"\u{e61c}",
-    "phone.in.talk":"\u{e61d}",
-    "phone.iphone":"\u{e325}",
-    "phone.locked":"\u{e61e}",
-    "phone.missed":"\u{e61f}",
-    "phone.paused":"\u{e620}",
-    "phonelink":"\u{e326}",
-    "phonelink.erase":"\u{e0db}",
-    "phonelink.lock":"\u{e0dc}",
-    "phonelink.off":"\u{e327}",
-    "phonelink.ring":"\u{e0dd}",
-    "phonelink.setup":"\u{e0de}",
-    "photo":"\u{e410}",
-    "photo.album":"\u{e411}",
-    "photo.camera":"\u{e412}",
-    "photo.filter":"\u{e43b}",
-    "photo.library":"\u{e413}",
-    "photo.size.select.actual":"\u{e432}",
-    "photo.size.select.large":"\u{e433}",
-    "photo.size.select.small":"\u{e434}",
-    "picture.as.pdf":"\u{e415}",
-    "picture.in.picture":"\u{e8aa}",
-    "picture.in.picture.alt":"\u{e911}",
-    "pie.chart":"\u{e6c4}",
-    "pie.chart.outlined":"\u{e6c5}",
-    "pin.drop":"\u{e55e}",
-    "place":"\u{e55f}",
-    "play.arrow":"\u{e037}",
-    "play.circle.filled":"\u{e038}",
-    "play.circle.outline":"\u{e039}",
-    "play.for.work":"\u{e906}",
-    "playlist.add":"\u{e03b}",
-    "playlist.add.check":"\u{e065}",
-    "playlist.play":"\u{e05f}",
-    "plus.one":"\u{e800}",
-    "poll":"\u{e801}",
-    "polymer":"\u{e8ab}",
-    "pool":"\u{eb48}",
-    "portable.wifi.off":"\u{e0ce}",
-    "portrait":"\u{e416}",
-    "power":"\u{e63c}",
-    "power.input":"\u{e336}",
-    "power.settings.new":"\u{e8ac}",
-    "pregnant.woman":"\u{e91e}",
-    "present.to.all":"\u{e0df}",
-    "print":"\u{e8ad}",
-    "priority.high":"\u{e645}",
-    "public":"\u{e80b}",
-    "publish":"\u{e255}",
-    "query.builder":"\u{e8ae}",
-    "question.answer":"\u{e8af}",
-    "queue":"\u{e03c}",
-    "queue.music":"\u{e03d}",
-    "queue.play.next":"\u{e066}",
-    "radio":"\u{e03e}",
-    "radio.button.checked":"\u{e837}",
-    "radio.button.unchecked":"\u{e836}",
-    "rate.review":"\u{e560}",
-    "receipt":"\u{e8b0}",
-    "recent.actors":"\u{e03f}",
-    "record.voice.over":"\u{e91f}",
-    "redeem":"\u{e8b1}",
-    "redo":"\u{e15a}",
-    "refresh":"\u{e5d5}",
-    "remove":"\u{e15b}",
-    "remove.circle":"\u{e15c}",
-    "remove.circle.outline":"\u{e15d}",
-    "remove.from.queue":"\u{e067}",
-    "remove.red.eye":"\u{e417}",
-    "remove.shopping.cart":"\u{e928}",
-    "reorder":"\u{e8fe}",
-    "repeat":"\u{e040}",
-    "repeat.one":"\u{e041}",
-    "replay":"\u{e042}",
-    "replay.10":"\u{e059}",
-    "replay.30":"\u{e05a}",
-    "replay.5":"\u{e05b}",
-    "reply":"\u{e15e}",
-    "reply.all":"\u{e15f}",
-    "report":"\u{e160}",
-    "report.problem":"\u{e8b2}",
-    "restaurant":"\u{e56c}",
-    "restaurant.menu":"\u{e561}",
-    "restore":"\u{e8b3}",
-    "restore.page":"\u{e929}",
-    "ring.volume":"\u{e0d1}",
-    "room":"\u{e8b4}",
-    "room.service":"\u{eb49}",
-    "rotate.90.degrees.ccw":"\u{e418}",
-    "rotate.left":"\u{e419}",
-    "rotate.right":"\u{e41a}",
-    "rounded.corner":"\u{e920}",
-    "router":"\u{e328}",
-    "rowing":"\u{e921}",
-    "rss.feed":"\u{e0e5}",
-    "rv.hookup":"\u{e642}",
-    "satellite":"\u{e562}",
-    "save":"\u{e161}",
-    "scanner":"\u{e329}",
-    "schedule":"\u{e8b5}",
-    "school":"\u{e80c}",
-    "screen.lock.landscape":"\u{e1be}",
-    "screen.lock.portrait":"\u{e1bf}",
-    "screen.lock.rotation":"\u{e1c0}",
-    "screen.rotation":"\u{e1c1}",
-    "screen.share":"\u{e0e2}",
-    "sd.card":"\u{e623}",
-    "sd.storage":"\u{e1c2}",
-    "search":"\u{e8b6}",
-    "security":"\u{e32a}",
-    "select.all":"\u{e162}",
-    "send":"\u{e163}",
-    "sentiment.dissatisfied":"\u{e811}",
-    "sentiment.neutral":"\u{e812}",
-    "sentiment.satisfied":"\u{e813}",
-    "sentiment.very.dissatisfied":"\u{e814}",
-    "sentiment.very.satisfied":"\u{e815}",
-    "settings":"\u{e8b8}",
-    "settings.applications":"\u{e8b9}",
-    "settings.backup.restore":"\u{e8ba}",
-    "settings.bluetooth":"\u{e8bb}",
-    "settings.brightness":"\u{e8bd}",
-    "settings.cell":"\u{e8bc}",
-    "settings.ethernet":"\u{e8be}",
-    "settings.input.antenna":"\u{e8bf}",
-    "settings.input.component":"\u{e8c0}",
-    "settings.input.composite":"\u{e8c1}",
-    "settings.input.hdmi":"\u{e8c2}",
-    "settings.input.svideo":"\u{e8c3}",
-    "settings.overscan":"\u{e8c4}",
-    "settings.phone":"\u{e8c5}",
-    "settings.power":"\u{e8c6}",
-    "settings.remote":"\u{e8c7}",
-    "settings.system.daydream":"\u{e1c3}",
-    "settings.voice":"\u{e8c8}",
-    "share":"\u{e80d}",
-    "shop":"\u{e8c9}",
-    "shop.two":"\u{e8ca}",
-    "shopping.basket":"\u{e8cb}",
-    "shopping.cart":"\u{e8cc}",
-    "short.text":"\u{e261}",
-    "show.chart":"\u{e6e1}",
-    "shuffle":"\u{e043}",
-    "signal.cellular.4.bar":"\u{e1c8}",
-    "signal.cellular.connected.no.internet.4.bar":"\u{e1cd}",
-    "signal.cellular.no.sim":"\u{e1ce}",
-    "signal.cellular.null":"\u{e1cf}",
-    "signal.cellular.off":"\u{e1d0}",
-    "signal.wifi.4.bar":"\u{e1d8}",
-    "signal.wifi.4.bar.lock":"\u{e1d9}",
-    "signal.wifi.off":"\u{e1da}",
-    "sim.card":"\u{e32b}",
-    "sim.card.alert":"\u{e624}",
-    "skip.next":"\u{e044}",
-    "skip.previous":"\u{e045}",
-    "slideshow":"\u{e41b}",
-    "slow.motion.video":"\u{e068}",
-    "smartphone":"\u{e32c}",
-    "smoke.free":"\u{eb4a}",
-    "smoking.rooms":"\u{eb4b}",
-    "sms":"\u{e625}",
-    "sms.failed":"\u{e626}",
-    "snooze":"\u{e046}",
-    "sort":"\u{e164}",
-    "sort.by.alpha":"\u{e053}",
-    "spa":"\u{eb4c}",
-    "space.bar":"\u{e256}",
-    "speaker":"\u{e32d}",
-    "speaker.group":"\u{e32e}",
-    "speaker.notes":"\u{e8cd}",
-    "speaker.notes.off":"\u{e92a}",
-    "speaker.phone":"\u{e0d2}",
-    "spellcheck":"\u{e8ce}",
-    "star":"\u{e838}",
-    "star.border":"\u{e83a}",
-    "star.half":"\u{e839}",
-    "stars":"\u{e8d0}",
-    "stay.current.landscape":"\u{e0d3}",
-    "stay.current.portrait":"\u{e0d4}",
-    "stay.primary.landscape":"\u{e0d5}",
-    "stay.primary.portrait":"\u{e0d6}",
-    "stop":"\u{e047}",
-    "stop.screen.share":"\u{e0e3}",
-    "storage":"\u{e1db}",
-    "store":"\u{e8d1}",
-    "store.mall.directory":"\u{e563}",
-    "straighten":"\u{e41c}",
-    "streetview":"\u{e56e}",
-    "strikethrough.s":"\u{e257}",
-    "style":"\u{e41d}",
-    "subdirectory.arrow.left":"\u{e5d9}",
-    "subdirectory.arrow.right":"\u{e5da}",
-    "subject":"\u{e8d2}",
-    "subscriptions":"\u{e064}",
-    "subtitles":"\u{e048}",
-    "subway":"\u{e56f}",
-    "supervisor.account":"\u{e8d3}",
-    "surround.sound":"\u{e049}",
-    "swap.calls":"\u{e0d7}",
-    "swap.horiz":"\u{e8d4}",
-    "swap.vert":"\u{e8d5}",
-    "swap.vertical.circle":"\u{e8d6}",
-    "switch.camera":"\u{e41e}",
-    "switch.video":"\u{e41f}",
-    "sync":"\u{e627}",
-    "sync.disabled":"\u{e628}",
-    "sync.problem":"\u{e629}",
-    "system.update":"\u{e62a}",
-    "system.update.alt":"\u{e8d7}",
-    "tab":"\u{e8d8}",
-    "tab.unselected":"\u{e8d9}",
-    "tablet":"\u{e32f}",
-    "tablet.android":"\u{e330}",
-    "tablet.mac":"\u{e331}",
-    "tag.faces":"\u{e420}",
-    "tap.and.play":"\u{e62b}",
-    "terrain":"\u{e564}",
-    "text.fields":"\u{e262}",
-    "text.format":"\u{e165}",
-    "textsms":"\u{e0d8}",
-    "texture":"\u{e421}",
-    "theaters":"\u{e8da}",
-    "thumb.down":"\u{e8db}",
-    "thumb.up":"\u{e8dc}",
-    "thumbs.up.down":"\u{e8dd}",
-    "time.to.leave":"\u{e62c}",
-    "timelapse":"\u{e422}",
-    "timeline":"\u{e922}",
-    "timer":"\u{e425}",
-    "timer.10":"\u{e423}",
-    "timer.3":"\u{e424}",
-    "timer.off":"\u{e426}",
-    "title":"\u{e264}",
-    "toc":"\u{e8de}",
-    "today":"\u{e8df}",
-    "toll":"\u{e8e0}",
-    "tonality":"\u{e427}",
-    "touch.app":"\u{e913}",
-    "toys":"\u{e332}",
-    "track.changes":"\u{e8e1}",
-    "traffic":"\u{e565}",
-    "train":"\u{e570}",
-    "tram":"\u{e571}",
-    "transfer.within.a.station":"\u{e572}",
-    "transform":"\u{e428}",
-    "translate":"\u{e8e2}",
-    "trending.down":"\u{e8e3}",
-    "trending.flat":"\u{e8e4}",
-    "trending.up":"\u{e8e5}",
-    "tune":"\u{e429}",
-    "turned.in":"\u{e8e6}",
-    "turned.in.not":"\u{e8e7}",
-    "tv":"\u{e333}",
-    "unarchive":"\u{e169}",
-    "undo":"\u{e166}",
-    "unfold.less":"\u{e5d6}",
-    "unfold.more":"\u{e5d7}",
-    "update":"\u{e923}",
-    "usb":"\u{e1e0}",
-    "verified.user":"\u{e8e8}",
-    "vertical.align.bottom":"\u{e258}",
-    "vertical.align.center":"\u{e259}",
-    "vertical.align.top":"\u{e25a}",
-    "vibration":"\u{e62d}",
-    "video.call":"\u{e070}",
-    "video.label":"\u{e071}",
-    "video.library":"\u{e04a}",
-    "videocam":"\u{e04b}",
-    "videocam.off":"\u{e04c}",
-    "videogame.asset":"\u{e338}",
-    "view.agenda":"\u{e8e9}",
-    "view.array":"\u{e8ea}",
-    "view.carousel":"\u{e8eb}",
-    "view.column":"\u{e8ec}",
-    "view.comfy":"\u{e42a}",
-    "view.compact":"\u{e42b}",
-    "view.day":"\u{e8ed}",
-    "view.headline":"\u{e8ee}",
-    "view.list":"\u{e8ef}",
-    "view.module":"\u{e8f0}",
-    "view.quilt":"\u{e8f1}",
-    "view.stream":"\u{e8f2}",
-    "view.week":"\u{e8f3}",
-    "vignette":"\u{e435}",
-    "visibility":"\u{e8f4}",
-    "visibility.off":"\u{e8f5}",
-    "voice.chat":"\u{e62e}",
-    "voicemail":"\u{e0d9}",
-    "volume.down":"\u{e04d}",
-    "volume.mute":"\u{e04e}",
-    "volume.off":"\u{e04f}",
-    "volume.up":"\u{e050}",
-    "vpn.key":"\u{e0da}",
-    "vpn.lock":"\u{e62f}",
-    "wallpaper":"\u{e1bc}",
-    "warning":"\u{e002}",
-    "watch":"\u{e334}",
-    "watch.later":"\u{e924}",
-    "wb.auto":"\u{e42c}",
-    "wb.cloudy":"\u{e42d}",
-    "wb.incandescent":"\u{e42e}",
-    "wb.iridescent":"\u{e436}",
-    "wb.sunny":"\u{e430}",
-    "wc":"\u{e63d}",
-    "web":"\u{e051}",
-    "web.asset":"\u{e069}",
-    "weekend":"\u{e16b}",
-    "whatshot":"\u{e80e}",
-    "widgets":"\u{e1bd}",
-    "wifi":"\u{e63e}",
-    "wifi.lock":"\u{e1e1}",
-    "wifi.tethering":"\u{e1e2}",
-    "work":"\u{e8f9}",
-    "wrap.text":"\u{e25b}",
-    "youtube.searched.for":"\u{e8fa}",
-    "zoom.in":"\u{e8ff}",
-    "zoom.out":"\u{e900}",
-    "zoom.out.map":"\u{e56b}"
-]
+public enum Mi : String {
+  case rotation_3d  = "\u{e84d}"
+  case ac_unit  = "\u{eb3b}"
+  case access_alarm  = "\u{e190}"
+  case access_alarms  = "\u{e191}"
+  case access_time  = "\u{e192}"
+  case accessibility  = "\u{e84e}"
+  case accessible  = "\u{e914}"
+  case account_balance  = "\u{e84f}"
+  case account_balance_wallet  = "\u{e850}"
+  case account_box  = "\u{e851}"
+  case account_circle  = "\u{e853}"
+  case adb  = "\u{e60e}"
+  case add  = "\u{e145}"
+  case add_a_photo  = "\u{e439}"
+  case add_alarm  = "\u{e193}"
+  case add_alert  = "\u{e003}"
+  case add_box  = "\u{e146}"
+  case add_circle  = "\u{e147}"
+  case add_circle_outline  = "\u{e148}"
+  case add_location  = "\u{e567}"
+  case add_shopping_cart  = "\u{e854}"
+  case add_to_photos  = "\u{e39d}"
+  case add_to_queue  = "\u{e05c}"
+  case adjust  = "\u{e39e}"
+  case airline_seat_flat  = "\u{e630}"
+  case airline_seat_flat_angled  = "\u{e631}"
+  case airline_seat_individual_suite  = "\u{e632}"
+  case airline_seat_legroom_extra  = "\u{e633}"
+  case airline_seat_legroom_normal  = "\u{e634}"
+  case airline_seat_legroom_reduced  = "\u{e635}"
+  case airline_seat_recline_extra  = "\u{e636}"
+  case airline_seat_recline_normal  = "\u{e637}"
+  case airplanemode_active  = "\u{e195}"
+  case airplanemode_inactive  = "\u{e194}"
+  case airplay  = "\u{e055}"
+  case airport_shuttle  = "\u{eb3c}"
+  case alarm  = "\u{e855}"
+  case alarm_add  = "\u{e856}"
+  case alarm_off  = "\u{e857}"
+  case alarm_on  = "\u{e858}"
+  case album  = "\u{e019}"
+  case all_inclusive  = "\u{eb3d}"
+  case all_out  = "\u{e90b}"
+  case android  = "\u{e859}"
+  case announcement  = "\u{e85a}"
+  case apps  = "\u{e5c3}"
+  case archive  = "\u{e149}"
+  case arrow_back  = "\u{e5c4}"
+  case arrow_downward  = "\u{e5db}"
+  case arrow_drop_down  = "\u{e5c5}"
+  case arrow_drop_down_circle  = "\u{e5c6}"
+  case arrow_drop_up  = "\u{e5c7}"
+  case arrow_forward  = "\u{e5c8}"
+  case arrow_upward  = "\u{e5d8}"
+  case art_track  = "\u{e060}"
+  case aspect_ratio  = "\u{e85b}"
+  case assessment  = "\u{e85c}"
+  case assignment  = "\u{e85d}"
+  case assignment_ind  = "\u{e85e}"
+  case assignment_late  = "\u{e85f}"
+  case assignment_return  = "\u{e860}"
+  case assignment_returned  = "\u{e861}"
+  case assignment_turned_in  = "\u{e862}"
+  case assistant  = "\u{e39f}"
+  case assistant_photo  = "\u{e3a0}"
+  case attach_file  = "\u{e226}"
+  case attach_money  = "\u{e227}"
+  case attachment  = "\u{e2bc}"
+  case audiotrack  = "\u{e3a1}"
+  case autorenew  = "\u{e863}"
+  case av_timer  = "\u{e01b}"
+  case backspace  = "\u{e14a}"
+  case backup  = "\u{e864}"
+  case battery_alert  = "\u{e19c}"
+  case battery_charging_full  = "\u{e1a3}"
+  case battery_full  = "\u{e1a4}"
+  case battery_std  = "\u{e1a5}"
+  case battery_unknown  = "\u{e1a6}"
+  case beach_access  = "\u{eb3e}"
+  case beenhere  = "\u{e52d}"
+  case block  = "\u{e14b}"
+  case bluetooth  = "\u{e1a7}"
+  case bluetooth_audio  = "\u{e60f}"
+  case bluetooth_connected  = "\u{e1a8}"
+  case bluetooth_disabled  = "\u{e1a9}"
+  case bluetooth_searching  = "\u{e1aa}"
+  case blur_circular  = "\u{e3a2}"
+  case blur_linear  = "\u{e3a3}"
+  case blur_off  = "\u{e3a4}"
+  case blur_on  = "\u{e3a5}"
+  case book  = "\u{e865}"
+  case bookmark  = "\u{e866}"
+  case bookmark_border  = "\u{e867}"
+  case border_all  = "\u{e228}"
+  case border_bottom  = "\u{e229}"
+  case border_clear  = "\u{e22a}"
+  case border_color  = "\u{e22b}"
+  case border_horizontal  = "\u{e22c}"
+  case border_inner  = "\u{e22d}"
+  case border_left  = "\u{e22e}"
+  case border_outer  = "\u{e22f}"
+  case border_right  = "\u{e230}"
+  case border_style  = "\u{e231}"
+  case border_top  = "\u{e232}"
+  case border_vertical  = "\u{e233}"
+  case branding_watermark  = "\u{e06b}"
+  case brightness_1  = "\u{e3a6}"
+  case brightness_2  = "\u{e3a7}"
+  case brightness_3  = "\u{e3a8}"
+  case brightness_4  = "\u{e3a9}"
+  case brightness_5  = "\u{e3aa}"
+  case brightness_6  = "\u{e3ab}"
+  case brightness_7  = "\u{e3ac}"
+  case brightness_auto  = "\u{e1ab}"
+  case brightness_high  = "\u{e1ac}"
+  case brightness_low  = "\u{e1ad}"
+  case brightness_medium  = "\u{e1ae}"
+  case broken_image  = "\u{e3ad}"
+  case brush  = "\u{e3ae}"
+  case bubble_chart  = "\u{e6dd}"
+  case bug_report  = "\u{e868}"
+  case build  = "\u{e869}"
+  case burst_mode  = "\u{e43c}"
+  case business  = "\u{e0af}"
+  case business_center  = "\u{eb3f}"
+  case cached  = "\u{e86a}"
+  case cake  = "\u{e7e9}"
+  case call  = "\u{e0b0}"
+  case call_end  = "\u{e0b1}"
+  case call_made  = "\u{e0b2}"
+  case call_merge  = "\u{e0b3}"
+  case call_missed  = "\u{e0b4}"
+  case call_missed_outgoing  = "\u{e0e4}"
+  case call_received  = "\u{e0b5}"
+  case call_split  = "\u{e0b6}"
+  case call_to_action  = "\u{e06c}"
+  case camera  = "\u{e3af}"
+  case camera_alt  = "\u{e3b0}"
+  case camera_enhance  = "\u{e8fc}"
+  case camera_front  = "\u{e3b1}"
+  case camera_rear  = "\u{e3b2}"
+  case camera_roll  = "\u{e3b3}"
+  case cancel  = "\u{e5c9}"
+  case card_giftcard  = "\u{e8f6}"
+  case card_membership  = "\u{e8f7}"
+  case card_travel  = "\u{e8f8}"
+  case casino  = "\u{eb40}"
+  case cast  = "\u{e307}"
+  case cast_connected  = "\u{e308}"
+  case center_focus_strong  = "\u{e3b4}"
+  case center_focus_weak  = "\u{e3b5}"
+  case change_history  = "\u{e86b}"
+  case chat  = "\u{e0b7}"
+  case chat_bubble  = "\u{e0ca}"
+  case chat_bubble_outline  = "\u{e0cb}"
+  case check  = "\u{e5ca}"
+  case check_box  = "\u{e834}"
+  case check_box_outline_blank  = "\u{e835}"
+  case check_circle  = "\u{e86c}"
+  case chevron_left  = "\u{e5cb}"
+  case chevron_right  = "\u{e5cc}"
+  case child_care  = "\u{eb41}"
+  case child_friendly  = "\u{eb42}"
+  case chrome_reader_mode  = "\u{e86d}"
+  case class_  = "\u{e86e}"
+  case clear  = "\u{e14c}"
+  case clear_all  = "\u{e0b8}"
+  case close  = "\u{e5cd}"
+  case closed_caption  = "\u{e01c}"
+  case cloud  = "\u{e2bd}"
+  case cloud_circle  = "\u{e2be}"
+  case cloud_done  = "\u{e2bf}"
+  case cloud_download  = "\u{e2c0}"
+  case cloud_off  = "\u{e2c1}"
+  case cloud_queue  = "\u{e2c2}"
+  case cloud_upload  = "\u{e2c3}"
+  case code  = "\u{e86f}"
+  case collections  = "\u{e3b6}"
+  case collections_bookmark  = "\u{e431}"
+  case color_lens  = "\u{e3b7}"
+  case colorize  = "\u{e3b8}"
+  case comment  = "\u{e0b9}"
+  case compare  = "\u{e3b9}"
+  case compare_arrows  = "\u{e915}"
+  case computer  = "\u{e30a}"
+  case confirmation_number  = "\u{e638}"
+  case contact_mail  = "\u{e0d0}"
+  case contact_phone  = "\u{e0cf}"
+  case contacts  = "\u{e0ba}"
+  case content_copy  = "\u{e14d}"
+  case content_cut  = "\u{e14e}"
+  case content_paste  = "\u{e14f}"
+  case control_point  = "\u{e3ba}"
+  case control_point_duplicate  = "\u{e3bb}"
+  case copyright  = "\u{e90c}"
+  case create  = "\u{e150}"
+  case create_new_folder  = "\u{e2cc}"
+  case credit_card  = "\u{e870}"
+  case crop  = "\u{e3be}"
+  case crop_16_9  = "\u{e3bc}"
+  case crop_3_2  = "\u{e3bd}"
+  case crop_5_4  = "\u{e3bf}"
+  case crop_7_5  = "\u{e3c0}"
+  case crop_din  = "\u{e3c1}"
+  case crop_free  = "\u{e3c2}"
+  case crop_landscape  = "\u{e3c3}"
+  case crop_original  = "\u{e3c4}"
+  case crop_portrait  = "\u{e3c5}"
+  case crop_rotate  = "\u{e437}"
+  case crop_square  = "\u{e3c6}"
+  case dashboard  = "\u{e871}"
+  case data_usage  = "\u{e1af}"
+  case date_range  = "\u{e916}"
+  case dehaze  = "\u{e3c7}"
+  case delete  = "\u{e872}"
+  case delete_forever  = "\u{e92b}"
+  case delete_sweep  = "\u{e16c}"
+  case description  = "\u{e873}"
+  case desktop_mac  = "\u{e30b}"
+  case desktop_windows  = "\u{e30c}"
+  case details  = "\u{e3c8}"
+  case developer_board  = "\u{e30d}"
+  case developer_mode  = "\u{e1b0}"
+  case device_hub  = "\u{e335}"
+  case devices  = "\u{e1b1}"
+  case devices_other  = "\u{e337}"
+  case dialer_sip  = "\u{e0bb}"
+  case dialpad  = "\u{e0bc}"
+  case directions  = "\u{e52e}"
+  case directions_bike  = "\u{e52f}"
+  case directions_boat  = "\u{e532}"
+  case directions_bus  = "\u{e530}"
+  case directions_car  = "\u{e531}"
+  case directions_railway  = "\u{e534}"
+  case directions_run  = "\u{e566}"
+  case directions_subway  = "\u{e533}"
+  case directions_transit, traffic  = "\u{e565}"
+  case directions_walk  = "\u{e536}"
+  case disc_full  = "\u{e610}"
+  case dns  = "\u{e875}"
+  case do_not_disturb  = "\u{e612}"
+  case do_not_disturb_alt  = "\u{e611}"
+  case do_not_disturb_off  = "\u{e643}"
+  case do_not_disturb_on  = "\u{e644}"
+  case dock  = "\u{e30e}"
+  case domain  = "\u{e7ee}"
+  case done  = "\u{e876}"
+  case done_all  = "\u{e877}"
+  case donut_large  = "\u{e917}"
+  case donut_small  = "\u{e918}"
+  case drafts  = "\u{e151}"
+  case drag_handle  = "\u{e25d}"
+  case drive_eta  = "\u{e613}"
+  case dvr  = "\u{e1b2}"
+  case edit  = "\u{e3c9}"
+  case edit_location  = "\u{e568}"
+  case eject  = "\u{e8fb}"
+  case email  = "\u{e0be}"
+  case enhanced_encryption  = "\u{e63f}"
+  case equalizer  = "\u{e01d}"
+  case error  = "\u{e000}"
+  case error_outline  = "\u{e001}"
+  case euro_symbol  = "\u{e926}"
+  case ev_station  = "\u{e56d}"
+  case event  = "\u{e878}"
+  case event_available  = "\u{e614}"
+  case event_busy  = "\u{e615}"
+  case event_note  = "\u{e616}"
+  case event_seat  = "\u{e903}"
+  case exit_to_app  = "\u{e879}"
+  case expand_less  = "\u{e5ce}"
+  case expand_more  = "\u{e5cf}"
+  case explicit  = "\u{e01e}"
+  case explore  = "\u{e87a}"
+  case exposure  = "\u{e3ca}"
+  case exposure_neg_1  = "\u{e3cb}"
+  case exposure_neg_2  = "\u{e3cc}"
+  case exposure_plus_1  = "\u{e3cd}"
+  case exposure_plus_2  = "\u{e3ce}"
+  case exposure_zero  = "\u{e3cf}"
+  case extension_  = "\u{e87b}"
+  case face  = "\u{e87c}"
+  case fast_forward  = "\u{e01f}"
+  case fast_rewind  = "\u{e020}"
+  case favorite  = "\u{e87d}"
+  case favorite_border  = "\u{e87e}"
+  case featured_play_list  = "\u{e06d}"
+  case featured_video  = "\u{e06e}"
+  case feedback  = "\u{e87f}"
+  case fiber_dvr  = "\u{e05d}"
+  case fiber_manual_record  = "\u{e061}"
+  case fiber_new  = "\u{e05e}"
+  case fiber_pin  = "\u{e06a}"
+  case fiber_smart_record  = "\u{e062}"
+  case file_download  = "\u{e2c4}"
+  case file_upload  = "\u{e2c6}"
+  case filter  = "\u{e3d3}"
+  case filter_1  = "\u{e3d0}"
+  case filter_2  = "\u{e3d1}"
+  case filter_3  = "\u{e3d2}"
+  case filter_4  = "\u{e3d4}"
+  case filter_5  = "\u{e3d5}"
+  case filter_6  = "\u{e3d6}"
+  case filter_7  = "\u{e3d7}"
+  case filter_8  = "\u{e3d8}"
+  case filter_9  = "\u{e3d9}"
+  case filter_9_plus  = "\u{e3da}"
+  case filter_b_and_w  = "\u{e3db}"
+  case filter_center_focus  = "\u{e3dc}"
+  case filter_drama  = "\u{e3dd}"
+  case filter_frames  = "\u{e3de}"
+  case filter_hdr  = "\u{e3df}"
+  case filter_list  = "\u{e152}"
+  case filter_none  = "\u{e3e0}"
+  case filter_tilt_shift  = "\u{e3e2}"
+  case filter_vintage  = "\u{e3e3}"
+  case find_in_page  = "\u{e880}"
+  case find_replace  = "\u{e881}"
+  case fingerprint  = "\u{e90d}"
+  case first_page  = "\u{e5dc}"
+  case fitness_center  = "\u{eb43}"
+  case flag  = "\u{e153}"
+  case flare  = "\u{e3e4}"
+  case flash_auto  = "\u{e3e5}"
+  case flash_off  = "\u{e3e6}"
+  case flash_on  = "\u{e3e7}"
+  case flight  = "\u{e539}"
+  case flight_land  = "\u{e904}"
+  case flight_takeoff  = "\u{e905}"
+  case flip  = "\u{e3e8}"
+  case flip_to_back  = "\u{e882}"
+  case flip_to_front  = "\u{e883}"
+  case folder  = "\u{e2c7}"
+  case folder_open  = "\u{e2c8}"
+  case folder_shared  = "\u{e2c9}"
+  case folder_special  = "\u{e617}"
+  case font_download  = "\u{e167}"
+  case format_align_center  = "\u{e234}"
+  case format_align_justify  = "\u{e235}"
+  case format_align_left  = "\u{e236}"
+  case format_align_right  = "\u{e237}"
+  case format_bold  = "\u{e238}"
+  case format_clear  = "\u{e239}"
+  case format_color_fill  = "\u{e23a}"
+  case format_color_reset  = "\u{e23b}"
+  case format_color_text  = "\u{e23c}"
+  case format_indent_decrease  = "\u{e23d}"
+  case format_indent_increase  = "\u{e23e}"
+  case format_italic  = "\u{e23f}"
+  case format_line_spacing  = "\u{e240}"
+  case format_list_bulleted  = "\u{e241}"
+  case format_list_numbered  = "\u{e242}"
+  case format_paint  = "\u{e243}"
+  case format_quote  = "\u{e244}"
+  case format_shapes  = "\u{e25e}"
+  case format_size  = "\u{e245}"
+  case format_strikethrough  = "\u{e246}"
+  case format_textdirection_l_to_r  = "\u{e247}"
+  case format_textdirection_r_to_l  = "\u{e248}"
+  case format_underlined  = "\u{e249}"
+  case forum  = "\u{e0bf}"
+  case forward  = "\u{e154}"
+  case forward_10  = "\u{e056}"
+  case forward_30  = "\u{e057}"
+  case forward_5  = "\u{e058}"
+  case free_breakfast  = "\u{eb44}"
+  case fullscreen  = "\u{e5d0}"
+  case fullscreen_exit  = "\u{e5d1}"
+  case functions  = "\u{e24a}"
+  case g_translate  = "\u{e927}"
+  case gamepad  = "\u{e30f}"
+  case games  = "\u{e021}"
+  case gavel  = "\u{e90e}"
+  case gesture  = "\u{e155}"
+  case get_app  = "\u{e884}"
+  case gif  = "\u{e908}"
+  case golf_course  = "\u{eb45}"
+  case gps_fixed  = "\u{e1b3}"
+  case gps_not_fixed  = "\u{e1b4}"
+  case gps_off  = "\u{e1b5}"
+  case grade  = "\u{e885}"
+  case gradient  = "\u{e3e9}"
+  case grain  = "\u{e3ea}"
+  case graphic_eq  = "\u{e1b8}"
+  case grid_off  = "\u{e3eb}"
+  case grid_on  = "\u{e3ec}"
+  case group  = "\u{e7ef}"
+  case group_add  = "\u{e7f0}"
+  case group_work  = "\u{e886}"
+  case hd  = "\u{e052}"
+  case hdr_off  = "\u{e3ed}"
+  case hdr_on  = "\u{e3ee}"
+  case hdr_strong  = "\u{e3f1}"
+  case hdr_weak  = "\u{e3f2}"
+  case headset  = "\u{e310}"
+  case headset_mic  = "\u{e311}"
+  case healing  = "\u{e3f3}"
+  case hearing  = "\u{e023}"
+  case help  = "\u{e887}"
+  case help_outline  = "\u{e8fd}"
+  case high_quality  = "\u{e024}"
+  case highlight  = "\u{e25f}"
+  case highlight_off  = "\u{e888}"
+  case history  = "\u{e889}"
+  case home  = "\u{e88a}"
+  case hot_tub  = "\u{eb46}"
+  case hotel  = "\u{e53a}"
+  case hourglass_empty  = "\u{e88b}"
+  case hourglass_full  = "\u{e88c}"
+  case http  = "\u{e902}"
+  case https  = "\u{e88d}"
+  case image  = "\u{e3f4}"
+  case image_aspect_ratio  = "\u{e3f5}"
+  case import_contacts  = "\u{e0e0}"
+  case import_export  = "\u{e0c3}"
+  case important_devices  = "\u{e912}"
+  case inbox  = "\u{e156}"
+  case indeterminate_check_box  = "\u{e909}"
+  case info  = "\u{e88e}"
+  case info_outline  = "\u{e88f}"
+  case input  = "\u{e890}"
+  case insert_chart  = "\u{e24b}"
+  case insert_comment  = "\u{e24c}"
+  case insert_drive_file  = "\u{e24d}"
+  case insert_emoticon  = "\u{e24e}"
+  case insert_invitation  = "\u{e24f}"
+  case insert_link  = "\u{e250}"
+  case insert_photo  = "\u{e251}"
+  case invert_colors  = "\u{e891}"
+  case invert_colors_off  = "\u{e0c4}"
+  case iso  = "\u{e3f6}"
+  case keyboard  = "\u{e312}"
+  case keyboard_arrow_down  = "\u{e313}"
+  case keyboard_arrow_left  = "\u{e314}"
+  case keyboard_arrow_right  = "\u{e315}"
+  case keyboard_arrow_up  = "\u{e316}"
+  case keyboard_backspace  = "\u{e317}"
+  case keyboard_capslock  = "\u{e318}"
+  case keyboard_hide  = "\u{e31a}"
+  case keyboard_return  = "\u{e31b}"
+  case keyboard_tab  = "\u{e31c}"
+  case keyboard_voice  = "\u{e31d}"
+  case kitchen  = "\u{eb47}"
+  case label  = "\u{e892}"
+  case label_outline  = "\u{e893}"
+  case landscape  = "\u{e3f7}"
+  case language  = "\u{e894}"
+  case laptop  = "\u{e31e}"
+  case laptop_chromebook  = "\u{e31f}"
+  case laptop_mac  = "\u{e320}"
+  case laptop_windows  = "\u{e321}"
+  case last_page  = "\u{e5dd}"
+  case launch  = "\u{e895}"
+  case layers  = "\u{e53b}"
+  case layers_clear  = "\u{e53c}"
+  case leak_add  = "\u{e3f8}"
+  case leak_remove  = "\u{e3f9}"
+  case lens  = "\u{e3fa}"
+  case library_add  = "\u{e02e}"
+  case library_books  = "\u{e02f}"
+  case library_music  = "\u{e030}"
+  case lightbulb_outline  = "\u{e90f}"
+  case line_style  = "\u{e919}"
+  case line_weight  = "\u{e91a}"
+  case linear_scale  = "\u{e260}"
+  case link  = "\u{e157}"
+  case linked_camera  = "\u{e438}"
+  case list  = "\u{e896}"
+  case live_help  = "\u{e0c6}"
+  case live_tv  = "\u{e639}"
+  case local_activity  = "\u{e53f}"
+  case local_airport  = "\u{e53d}"
+  case local_atm  = "\u{e53e}"
+  case local_bar  = "\u{e540}"
+  case local_cafe  = "\u{e541}"
+  case local_car_wash  = "\u{e542}"
+  case local_convenience_store  = "\u{e543}"
+  case local_dining  = "\u{e556}"
+  case local_drink  = "\u{e544}"
+  case local_florist  = "\u{e545}"
+  case local_gas_station  = "\u{e546}"
+  case local_grocery_store  = "\u{e547}"
+  case local_hospital  = "\u{e548}"
+  case local_hotel  = "\u{e549}"
+  case local_laundry_service  = "\u{e54a}"
+  case local_library  = "\u{e54b}"
+  case local_mall  = "\u{e54c}"
+  case local_movies  = "\u{e54d}"
+  case local_offer  = "\u{e54e}"
+  case local_parking  = "\u{e54f}"
+  case local_pharmacy  = "\u{e550}"
+  case local_phone  = "\u{e551}"
+  case local_pizza  = "\u{e552}"
+  case local_play  = "\u{e553}"
+  case local_post_office  = "\u{e554}"
+  case local_printshop  = "\u{e555}"
+  case local_see  = "\u{e557}"
+  case local_shipping  = "\u{e558}"
+  case local_taxi  = "\u{e559}"
+  case location_city  = "\u{e7f1}"
+  case location_disabled  = "\u{e1b6}"
+  case location_off  = "\u{e0c7}"
+  case location_on  = "\u{e0c8}"
+  case location_searching  = "\u{e1b7}"
+  case lock  = "\u{e897}"
+  case lock_open  = "\u{e898}"
+  case lock_outline  = "\u{e899}"
+  case looks  = "\u{e3fc}"
+  case looks_3  = "\u{e3fb}"
+  case looks_4  = "\u{e3fd}"
+  case looks_5  = "\u{e3fe}"
+  case looks_6  = "\u{e3ff}"
+  case looks_one  = "\u{e400}"
+  case looks_two  = "\u{e401}"
+  case loop  = "\u{e028}"
+  case loupe  = "\u{e402}"
+  case low_priority  = "\u{e16d}"
+  case loyalty  = "\u{e89a}"
+  case mail  = "\u{e158}"
+  case mail_outline  = "\u{e0e1}"
+  case map  = "\u{e55b}"
+  case markunread  = "\u{e159}"
+  case markunread_mailbox  = "\u{e89b}"
+  case memory  = "\u{e322}"
+  case menu  = "\u{e5d2}"
+  case merge_type  = "\u{e252}"
+  case message  = "\u{e0c9}"
+  case mic  = "\u{e029}"
+  case mic_none  = "\u{e02a}"
+  case mic_off  = "\u{e02b}"
+  case mms  = "\u{e618}"
+  case mode_comment  = "\u{e253}"
+  case mode_edit  = "\u{e254}"
+  case monetization_on  = "\u{e263}"
+  case money_off  = "\u{e25c}"
+  case monochrome_photos  = "\u{e403}"
+  case mood  = "\u{e7f2}"
+  case mood_bad  = "\u{e7f3}"
+  case more  = "\u{e619}"
+  case more_horiz  = "\u{e5d3}"
+  case more_vert  = "\u{e5d4}"
+  case motorcycle  = "\u{e91b}"
+  case mouse  = "\u{e323}"
+  case move_to_inbox  = "\u{e168}"
+  case movie  = "\u{e02c}"
+  case movie_creation  = "\u{e404}"
+  case movie_filter  = "\u{e43a}"
+  case multiline_chart  = "\u{e6df}"
+  case music_note  = "\u{e405}"
+  case music_video  = "\u{e063}"
+  case my_location  = "\u{e55c}"
+  case nature  = "\u{e406}"
+  case nature_people  = "\u{e407}"
+  case navigate_before  = "\u{e408}"
+  case navigate_next  = "\u{e409}"
+  case navigation  = "\u{e55d}"
+  case near_me  = "\u{e569}"
+  case network_cell  = "\u{e1b9}"
+  case network_check  = "\u{e640}"
+  case network_locked  = "\u{e61a}"
+  case network_wifi  = "\u{e1ba}"
+  case new_releases  = "\u{e031}"
+  case next_week  = "\u{e16a}"
+  case nfc  = "\u{e1bb}"
+  case no_encryption  = "\u{e641}"
+  case no_sim  = "\u{e0cc}"
+  case not_interested  = "\u{e033}"
+  case note  = "\u{e06f}"
+  case note_add  = "\u{e89c}"
+  case notifications  = "\u{e7f4}"
+  case notifications_active  = "\u{e7f7}"
+  case notifications_none  = "\u{e7f5}"
+  case notifications_off  = "\u{e7f6}"
+  case notifications_paused  = "\u{e7f8}"
+  case offline_pin  = "\u{e90a}"
+  case ondemand_video  = "\u{e63a}"
+  case opacity  = "\u{e91c}"
+  case open_in_browser  = "\u{e89d}"
+  case open_in_new  = "\u{e89e}"
+  case open_with  = "\u{e89f}"
+  case pages  = "\u{e7f9}"
+  case pageview  = "\u{e8a0}"
+  case palette  = "\u{e40a}"
+  case pan_tool  = "\u{e925}"
+  case panorama  = "\u{e40b}"
+  case panorama_fish_eye  = "\u{e40c}"
+  case panorama_horizontal  = "\u{e40d}"
+  case panorama_vertical  = "\u{e40e}"
+  case panorama_wide_angle  = "\u{e40f}"
+  case party_mode  = "\u{e7fa}"
+  case pause  = "\u{e034}"
+  case pause_circle_filled  = "\u{e035}"
+  case pause_circle_outline  = "\u{e036}"
+  case payment  = "\u{e8a1}"
+  case people  = "\u{e7fb}"
+  case people_outline  = "\u{e7fc}"
+  case perm_camera_mic  = "\u{e8a2}"
+  case perm_contact_calendar  = "\u{e8a3}"
+  case perm_data_setting  = "\u{e8a4}"
+  case perm_device_information  = "\u{e8a5}"
+  case perm_identity  = "\u{e8a6}"
+  case perm_media  = "\u{e8a7}"
+  case perm_phone_msg  = "\u{e8a8}"
+  case perm_scan_wifi  = "\u{e8a9}"
+  case person  = "\u{e7fd}"
+  case person_add  = "\u{e7fe}"
+  case person_outline  = "\u{e7ff}"
+  case person_pin  = "\u{e55a}"
+  case person_pin_circle  = "\u{e56a}"
+  case personal_video  = "\u{e63b}"
+  case pets  = "\u{e91d}"
+  case phone  = "\u{e0cd}"
+  case phone_android  = "\u{e324}"
+  case phone_bluetooth_speaker  = "\u{e61b}"
+  case phone_forwarded  = "\u{e61c}"
+  case phone_in_talk  = "\u{e61d}"
+  case phone_iphone  = "\u{e325}"
+  case phone_locked  = "\u{e61e}"
+  case phone_missed  = "\u{e61f}"
+  case phone_paused  = "\u{e620}"
+  case phonelink  = "\u{e326}"
+  case phonelink_erase  = "\u{e0db}"
+  case phonelink_lock  = "\u{e0dc}"
+  case phonelink_off  = "\u{e327}"
+  case phonelink_ring  = "\u{e0dd}"
+  case phonelink_setup  = "\u{e0de}"
+  case photo  = "\u{e410}"
+  case photo_album  = "\u{e411}"
+  case photo_camera  = "\u{e412}"
+  case photo_filter  = "\u{e43b}"
+  case photo_library  = "\u{e413}"
+  case photo_size_select_actual  = "\u{e432}"
+  case photo_size_select_large  = "\u{e433}"
+  case photo_size_select_small  = "\u{e434}"
+  case picture_as_pdf  = "\u{e415}"
+  case picture_in_picture  = "\u{e8aa}"
+  case picture_in_picture_alt  = "\u{e911}"
+  case pie_chart  = "\u{e6c4}"
+  case pie_chart_outlined  = "\u{e6c5}"
+  case pin_drop  = "\u{e55e}"
+  case place  = "\u{e55f}"
+  case play_arrow  = "\u{e037}"
+  case play_circle_filled  = "\u{e038}"
+  case play_circle_outline  = "\u{e039}"
+  case play_for_work  = "\u{e906}"
+  case playlist_add  = "\u{e03b}"
+  case playlist_add_check  = "\u{e065}"
+  case playlist_play  = "\u{e05f}"
+  case plus_one  = "\u{e800}"
+  case poll  = "\u{e801}"
+  case polymer  = "\u{e8ab}"
+  case pool  = "\u{eb48}"
+  case portable_wifi_off  = "\u{e0ce}"
+  case portrait  = "\u{e416}"
+  case power  = "\u{e63c}"
+  case power_input  = "\u{e336}"
+  case power_settings_new  = "\u{e8ac}"
+  case pregnant_woman  = "\u{e91e}"
+  case present_to_all  = "\u{e0df}"
+  case print  = "\u{e8ad}"
+  case priority_high  = "\u{e645}"
+  case public_  = "\u{e80b}"
+  case publish  = "\u{e255}"
+  case query_builder  = "\u{e8ae}"
+  case question_answer  = "\u{e8af}"
+  case queue  = "\u{e03c}"
+  case queue_music  = "\u{e03d}"
+  case queue_play_next  = "\u{e066}"
+  case radio  = "\u{e03e}"
+  case radio_button_checked  = "\u{e837}"
+  case radio_button_unchecked  = "\u{e836}"
+  case rate_review  = "\u{e560}"
+  case receipt  = "\u{e8b0}"
+  case recent_actors  = "\u{e03f}"
+  case record_voice_over  = "\u{e91f}"
+  case redeem  = "\u{e8b1}"
+  case redo  = "\u{e15a}"
+  case refresh  = "\u{e5d5}"
+  case remove  = "\u{e15b}"
+  case remove_circle  = "\u{e15c}"
+  case remove_circle_outline  = "\u{e15d}"
+  case remove_from_queue  = "\u{e067}"
+  case remove_red_eye  = "\u{e417}"
+  case remove_shopping_cart  = "\u{e928}"
+  case reorder  = "\u{e8fe}"
+  case repeat_  = "\u{e040}"
+  case repeat_one  = "\u{e041}"
+  case replay  = "\u{e042}"
+  case replay_10  = "\u{e059}"
+  case replay_30  = "\u{e05a}"
+  case replay_5  = "\u{e05b}"
+  case reply  = "\u{e15e}"
+  case reply_all  = "\u{e15f}"
+  case report  = "\u{e160}"
+  case report_problem  = "\u{e8b2}"
+  case restaurant  = "\u{e56c}"
+  case restaurant_menu  = "\u{e561}"
+  case restore  = "\u{e8b3}"
+  case restore_page  = "\u{e929}"
+  case ring_volume  = "\u{e0d1}"
+  case room  = "\u{e8b4}"
+  case room_service  = "\u{eb49}"
+  case rotate_90_degrees_ccw  = "\u{e418}"
+  case rotate_left  = "\u{e419}"
+  case rotate_right  = "\u{e41a}"
+  case rounded_corner  = "\u{e920}"
+  case router  = "\u{e328}"
+  case rowing  = "\u{e921}"
+  case rss_feed  = "\u{e0e5}"
+  case rv_hookup  = "\u{e642}"
+  case satellite  = "\u{e562}"
+  case save  = "\u{e161}"
+  case scanner  = "\u{e329}"
+  case schedule  = "\u{e8b5}"
+  case school  = "\u{e80c}"
+  case screen_lock_landscape  = "\u{e1be}"
+  case screen_lock_portrait  = "\u{e1bf}"
+  case screen_lock_rotation  = "\u{e1c0}"
+  case screen_rotation  = "\u{e1c1}"
+  case screen_share  = "\u{e0e2}"
+  case sd_card  = "\u{e623}"
+  case sd_storage  = "\u{e1c2}"
+  case search  = "\u{e8b6}"
+  case security  = "\u{e32a}"
+  case select_all  = "\u{e162}"
+  case send  = "\u{e163}"
+  case sentiment_dissatisfied  = "\u{e811}"
+  case sentiment_neutral  = "\u{e812}"
+  case sentiment_satisfied  = "\u{e813}"
+  case sentiment_very_dissatisfied  = "\u{e814}"
+  case sentiment_very_satisfied  = "\u{e815}"
+  case settings  = "\u{e8b8}"
+  case settings_applications  = "\u{e8b9}"
+  case settings_backup_restore  = "\u{e8ba}"
+  case settings_bluetooth  = "\u{e8bb}"
+  case settings_brightness  = "\u{e8bd}"
+  case settings_cell  = "\u{e8bc}"
+  case settings_ethernet  = "\u{e8be}"
+  case settings_input_antenna  = "\u{e8bf}"
+  case settings_input_component  = "\u{e8c0}"
+  case settings_input_composite  = "\u{e8c1}"
+  case settings_input_hdmi  = "\u{e8c2}"
+  case settings_input_svideo  = "\u{e8c3}"
+  case settings_overscan  = "\u{e8c4}"
+  case settings_phone  = "\u{e8c5}"
+  case settings_power  = "\u{e8c6}"
+  case settings_remote  = "\u{e8c7}"
+  case settings_system_daydream  = "\u{e1c3}"
+  case settings_voice  = "\u{e8c8}"
+  case share  = "\u{e80d}"
+  case shop  = "\u{e8c9}"
+  case shop_two  = "\u{e8ca}"
+  case shopping_basket  = "\u{e8cb}"
+  case shopping_cart  = "\u{e8cc}"
+  case short_text  = "\u{e261}"
+  case show_chart  = "\u{e6e1}"
+  case shuffle  = "\u{e043}"
+  case signal_cellular_4_bar  = "\u{e1c8}"
+  case signal_cellular_connected_no_internet_4_bar  = "\u{e1cd}"
+  case signal_cellular_no_sim  = "\u{e1ce}"
+  case signal_cellular_null  = "\u{e1cf}"
+  case signal_cellular_off  = "\u{e1d0}"
+  case signal_wifi_4_bar  = "\u{e1d8}"
+  case signal_wifi_4_bar_lock  = "\u{e1d9}"
+  case signal_wifi_off  = "\u{e1da}"
+  case sim_card  = "\u{e32b}"
+  case sim_card_alert  = "\u{e624}"
+  case skip_next  = "\u{e044}"
+  case skip_previous  = "\u{e045}"
+  case slideshow  = "\u{e41b}"
+  case slow_motion_video  = "\u{e068}"
+  case smartphone  = "\u{e32c}"
+  case smoke_free  = "\u{eb4a}"
+  case smoking_rooms  = "\u{eb4b}"
+  case sms  = "\u{e625}"
+  case sms_failed  = "\u{e626}"
+  case snooze  = "\u{e046}"
+  case sort  = "\u{e164}"
+  case sort_by_alpha  = "\u{e053}"
+  case spa  = "\u{eb4c}"
+  case space_bar  = "\u{e256}"
+  case speaker  = "\u{e32d}"
+  case speaker_group  = "\u{e32e}"
+  case speaker_notes  = "\u{e8cd}"
+  case speaker_notes_off  = "\u{e92a}"
+  case speaker_phone  = "\u{e0d2}"
+  case spellcheck  = "\u{e8ce}"
+  case star  = "\u{e838}"
+  case star_border  = "\u{e83a}"
+  case star_half  = "\u{e839}"
+  case stars  = "\u{e8d0}"
+  case stay_current_landscape  = "\u{e0d3}"
+  case stay_current_portrait  = "\u{e0d4}"
+  case stay_primary_landscape  = "\u{e0d5}"
+  case stay_primary_portrait  = "\u{e0d6}"
+  case stop  = "\u{e047}"
+  case stop_screen_share  = "\u{e0e3}"
+  case storage  = "\u{e1db}"
+  case store  = "\u{e8d1}"
+  case store_mall_directory  = "\u{e563}"
+  case straighten  = "\u{e41c}"
+  case streetview  = "\u{e56e}"
+  case strikethrough_s  = "\u{e257}"
+  case style  = "\u{e41d}"
+  case subdirectory_arrow_left  = "\u{e5d9}"
+  case subdirectory_arrow_right  = "\u{e5da}"
+  case subject  = "\u{e8d2}"
+  case subscriptions  = "\u{e064}"
+  case subtitles  = "\u{e048}"
+  case subway  = "\u{e56f}"
+  case supervisor_account  = "\u{e8d3}"
+  case surround_sound  = "\u{e049}"
+  case swap_calls  = "\u{e0d7}"
+  case swap_horiz  = "\u{e8d4}"
+  case swap_vert  = "\u{e8d5}"
+  case swap_vertical_circle  = "\u{e8d6}"
+  case switch_camera  = "\u{e41e}"
+  case switch_video  = "\u{e41f}"
+  case sync  = "\u{e627}"
+  case sync_disabled  = "\u{e628}"
+  case sync_problem  = "\u{e629}"
+  case system_update  = "\u{e62a}"
+  case system_update_alt  = "\u{e8d7}"
+  case tab  = "\u{e8d8}"
+  case tab_unselected  = "\u{e8d9}"
+  case tablet  = "\u{e32f}"
+  case tablet_android  = "\u{e330}"
+  case tablet_mac  = "\u{e331}"
+  case tag_faces  = "\u{e420}"
+  case tap_and_play  = "\u{e62b}"
+  case terrain  = "\u{e564}"
+  case text_fields  = "\u{e262}"
+  case text_format  = "\u{e165}"
+  case textsms  = "\u{e0d8}"
+  case texture  = "\u{e421}"
+  case theaters  = "\u{e8da}"
+  case thumb_down  = "\u{e8db}"
+  case thumb_up  = "\u{e8dc}"
+  case thumbs_up_down  = "\u{e8dd}"
+  case time_to_leave  = "\u{e62c}"
+  case timelapse  = "\u{e422}"
+  case timeline  = "\u{e922}"
+  case timer  = "\u{e425}"
+  case timer_10  = "\u{e423}"
+  case timer_3  = "\u{e424}"
+  case timer_off  = "\u{e426}"
+  case title  = "\u{e264}"
+  case toc  = "\u{e8de}"
+  case today  = "\u{e8df}"
+  case toll  = "\u{e8e0}"
+  case tonality  = "\u{e427}"
+  case touch_app  = "\u{e913}"
+  case toys  = "\u{e332}"
+  case track_changes  = "\u{e8e1}"
+  case train  = "\u{e570}"
+  case tram  = "\u{e571}"
+  case transfer_within_a_station  = "\u{e572}"
+  case transform  = "\u{e428}"
+  case translate  = "\u{e8e2}"
+  case trending_down  = "\u{e8e3}"
+  case trending_flat  = "\u{e8e4}"
+  case trending_up  = "\u{e8e5}"
+  case tune  = "\u{e429}"
+  case turned_in  = "\u{e8e6}"
+  case turned_in_not  = "\u{e8e7}"
+  case tv  = "\u{e333}"
+  case unarchive  = "\u{e169}"
+  case undo  = "\u{e166}"
+  case unfold_less  = "\u{e5d6}"
+  case unfold_more  = "\u{e5d7}"
+  case update  = "\u{e923}"
+  case usb  = "\u{e1e0}"
+  case verified_user  = "\u{e8e8}"
+  case vertical_align_bottom  = "\u{e258}"
+  case vertical_align_center  = "\u{e259}"
+  case vertical_align_top  = "\u{e25a}"
+  case vibration  = "\u{e62d}"
+  case video_call  = "\u{e070}"
+  case video_label  = "\u{e071}"
+  case video_library  = "\u{e04a}"
+  case videocam  = "\u{e04b}"
+  case videocam_off  = "\u{e04c}"
+  case videogame_asset  = "\u{e338}"
+  case view_agenda  = "\u{e8e9}"
+  case view_array  = "\u{e8ea}"
+  case view_carousel  = "\u{e8eb}"
+  case view_column  = "\u{e8ec}"
+  case view_comfy  = "\u{e42a}"
+  case view_compact  = "\u{e42b}"
+  case view_day  = "\u{e8ed}"
+  case view_headline  = "\u{e8ee}"
+  case view_list  = "\u{e8ef}"
+  case view_module  = "\u{e8f0}"
+  case view_quilt  = "\u{e8f1}"
+  case view_stream  = "\u{e8f2}"
+  case view_week  = "\u{e8f3}"
+  case vignette  = "\u{e435}"
+  case visibility  = "\u{e8f4}"
+  case visibility_off  = "\u{e8f5}"
+  case voice_chat  = "\u{e62e}"
+  case voicemail  = "\u{e0d9}"
+  case volume_down  = "\u{e04d}"
+  case volume_mute  = "\u{e04e}"
+  case volume_off  = "\u{e04f}"
+  case volume_up  = "\u{e050}"
+  case vpn_key  = "\u{e0da}"
+  case vpn_lock  = "\u{e62f}"
+  case wallpaper  = "\u{e1bc}"
+  case warning  = "\u{e002}"
+  case watch  = "\u{e334}"
+  case watch_later  = "\u{e924}"
+  case wb_auto  = "\u{e42c}"
+  case wb_cloudy  = "\u{e42d}"
+  case wb_incandescent  = "\u{e42e}"
+  case wb_iridescent  = "\u{e436}"
+  case wb_sunny  = "\u{e430}"
+  case wc  = "\u{e63d}"
+  case web  = "\u{e051}"
+  case web_asset  = "\u{e069}"
+  case weekend  = "\u{e16b}"
+  case whatshot  = "\u{e80e}"
+  case widgets  = "\u{e1bd}"
+  case wifi  = "\u{e63e}"
+  case wifi_lock  = "\u{e1e1}"
+  case wifi_tethering  = "\u{e1e2}"
+  case work  = "\u{e8f9}"
+  case wrap_text  = "\u{e25b}"
+  case youtube_searched_for  = "\u{e8fa}"
+  case zoom_in  = "\u{e8ff}"
+  case zoom_out  = "\u{e900}"
+  case zoom_out_map  = "\u{e56b}"
+}

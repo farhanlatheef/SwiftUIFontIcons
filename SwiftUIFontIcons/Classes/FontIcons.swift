@@ -10,6 +10,10 @@ public class FontIcon {
         return set("FontAwesome", icon.rawValue, size);
     }
     
+    public static func MI(_ icon:Mi, _ size : CGFloat) -> Text {
+        return set("MaterialIcons-Regular", icon.rawValue, size);
+    }
+    
     private static func set(_ font:String, _ icon:String,_ size : CGFloat) -> Text {
         if let _ = UIFont(name: font, size: size) {
            return Text(icon)
