@@ -9,8 +9,9 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftUIFontIcons'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SwiftUIFontIcons.'
+  s.summary          = 'Simple SwiftUI Text that can be used to show icons from popular icon libraries'
   s.homepage         = 'https://github.com/farhanlatheef/SwiftUIFontIcons'
+  s.swift_versions   = "5.0.0"
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'farhanlatheef' => 'farhan.latheef1@gmail.com' }
   s.source           = { :git => 'https://github.com/farhanlatheef/SwiftUIFontIcons.git', :tag => s.version.to_s }
