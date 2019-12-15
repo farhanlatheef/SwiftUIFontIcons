@@ -1,9 +1,9 @@
 //
-//  MaterialIcon_swift
+//  MaterialIcon.swift
+//  
 //
-//
-//  Created by Farhan CK on 12/12/19_
-//  Copyright © 2019 Farhan ck_ All rights reserved_
+//  Created by Farhan CK on 12/12/19
+//  Copyright © 2019 Farhan ck All rights reserved
 //
 
 public enum Mi : String {

@@ -15,6 +15,7 @@ struct ContentView: View {
             Text("Hello, World!")
             FontIcon.FA(.gear, 33)
             FontIcon.MI(.traffic, 33)
+            FontIcon.ION(.ios_mail, 33)
         }
     }
 }

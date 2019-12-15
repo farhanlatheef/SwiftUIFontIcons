@@ -1,8 +1,9 @@
 {
   "name": "SwiftUIFontIcons",
   "version": "0.1.0",
-  "summary": "A short description of SwiftUIFontIcons.",
+  "summary": "Simple SwiftUI Text that can be used to show icons from popular icon libraries",
   "homepage": "https://github.com/farhanlatheef/SwiftUIFontIcons",
+  "swift_versions": "5.0.0",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -19,5 +20,6 @@
   },
   "frameworks": "SwiftUI",
   "source_files": "SwiftUIFontIcons/Classes/**/*",
-  "resources": "SwiftUIFontIcons/Assets/*.{ttf}"
+  "resources": "SwiftUIFontIcons/Assets/*.{ttf}",
+  "swift_version": "5.0.0"
 }
