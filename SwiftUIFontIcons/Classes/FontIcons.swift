@@ -21,7 +21,7 @@ public class FontIcon {
     private static func set(_ font:String, _ icon:String,_ size : CGFloat) -> Text {
         if let _ = UIFont(name: font, size: size) {
            return Text(icon)
-           .font(.custom(font, size: 22))
+           .font(.custom(font, size: size))
        }
        let bundle = Bundle(for: FontIcon.self) //get the current bundle
        let url = bundle.url(forResource: font, withExtension: "ttf")! //get the bundle url
@@ -30,7 +30,7 @@ public class FontIcon {
        let cgFont = CGFont(provider)! //convert provider to cgfont
        CTFontManagerRegisterGraphicsFont(cgFont, nil);
        return Text(icon)
-       .font(.custom(font, size: 22))
+       .font(.custom(font, size: size))
     }
     
 
